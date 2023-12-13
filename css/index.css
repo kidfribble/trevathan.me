@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'GT Eesti Text Book';
+  src: url('../fonts/GT-Eesti-Text-Book.woff2') format('woff2'),
+       url('../fonts/GT-Eesti-Text-Book.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   font-family: "Gill sans", "Gill Sans Nova", "DejaVu Sans", "Open Sans", "Lato", sans-serif;
   font-size: 1.5em;
@@ -82,6 +90,10 @@ section.wrapup::before{
   background-color: #111;
 }
 
+nav {
+  background-color: #FEECEC;
+}
+
 .menu-toggle {
   display: none; /* Hide the checkbox */
 }
@@ -124,6 +136,7 @@ h1 {
 
 h2 {
   max-width: 570px;
+  font-family: "GT Eesti Text Book";
 }
 
 .role {
@@ -148,11 +161,22 @@ h2 {
 
 p {
   display: block;
-  max-width: 460px;
+  max-width: 570px;
 }
 
 p:nth-child(3), address:nth-child(3) {
   font-size: 1.15rem;
+}
+
+ol, ul {
+  padding-left: 1vmax;
+}
+
+ol li::marker, ul li::marker {
+  color: #9F2121;
+  font-family: 'GT Eesti Display Bold';
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 ol a, ul a {
