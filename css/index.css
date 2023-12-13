@@ -9,6 +9,21 @@ body * {
   margin-bottom: 1.5rem;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  background-image: url("../images/christmas_dinner.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 50%;
+}
+
 article.wrap, time {
   max-width: 1000px;
   margin: auto;
@@ -97,6 +112,10 @@ ol a, ul a {
   display: inline-block;
   text-decoration: none;
   color: #9F2121;
+}
+
+ol a:hover, ul a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 800px) {
