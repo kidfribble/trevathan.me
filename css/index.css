@@ -141,3 +141,27 @@ ol a:hover, ul a:hover {
     align-items: right;
   }
 }
+
+@media screen and (max-width: 1844px) {
+
+  body {
+    padding: 4vw;
+  }
+
+  body::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/christmas_dinner.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 50%;
+  }
+  
+}
