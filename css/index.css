@@ -34,7 +34,7 @@ section {
   align-items: baseline;
 }
 
-section h3 {
+section h2 {
   grid-column-start: 1;
   grid-column-end: 2;
   max-width: 200px;
@@ -57,24 +57,23 @@ section.wrapup::before{
   background-color: #111;
 }
 
-
 h1 {
   font-size: 2rem;
   font-size: clamp(2em, 5rem, 8vw);
-  line-height: clamp(0.75em, 3rem, 5vw);
+  line-height: clamp(1em, 3rem, 5vw);
   margin-bottom: 6vw;
 }
 
-h2 {
+.role {
   font-weight: 400;
   font-size: 1.75rem;
   margin-bottom: 5vw;
-  padding-bottom: 10vw;
+  padding-bottom: 3rem;
   max-width: 600px;
   position: relative;
 }
 
-h2::after {
+.role::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -82,7 +81,7 @@ h2::after {
   height: 4px;
   width: 20px;
   border-radius: 2px;
-  background-color: #111;
+  background-color: #9F2121;
 }
 
 p {
@@ -92,6 +91,12 @@ p {
 
 p:nth-child(3), address:nth-child(3) {
   font-size: 1.15rem;
+}
+
+ol a, ul a {
+  display: inline-block;
+  text-decoration: none;
+  color: #9F2121;
 }
 
 @media screen and (max-width: 800px) {
