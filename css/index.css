@@ -163,5 +163,12 @@ ol a:hover, ul a:hover {
     z-index: -1;
     opacity: 50%;
   }
+
+  button {
+    position: fixed;
+    right: 5vmax;
+    top: 5vmax;
+    z-index: 100;
+  }
   
 }
