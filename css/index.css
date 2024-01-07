@@ -196,7 +196,7 @@ h1 {
   font-size: clamp(2em, 5rem, 8vw);
   line-height: clamp(0.875em, 3rem, 5vw);
   margin-bottom: 6vw;
-  max-width: 570px;
+  max-width: 500px;
 }
 
 h2 {
