@@ -31,7 +31,7 @@ body::before {
   top: 0;
   left: 0;
   height: 100%;
-  width: 20%;
+  width: 40%;
   background-image: url("../images/me.jpg");
   background-size: cover;
   background-position: center;
@@ -40,7 +40,12 @@ body::before {
   opacity: 100%;
 }
 
-article.wrap, time {
+article.wrap {
+  max-width: 1000px;
+  margin: 0 0 0 45%;
+}
+
+time {
   max-width: 1000px;
   margin: auto;
 }
@@ -250,6 +255,10 @@ ol a:hover, ul a:hover {
   text-decoration: underline;
 }
 
+ol ul, ul ul {
+  margin-top: 1vmax;
+}
+
 @media screen and (max-width: 1600px) {
 
   body {
@@ -258,7 +267,6 @@ ol a:hover, ul a:hover {
 
   article.wrap, time {
     max-width: 500px;
-    margin: auto;
   }
 
   h1 {
@@ -282,5 +290,10 @@ ol a:hover, ul a:hover {
 @media screen and (max-width: 860px) {
   body::before {
     display: none;
+  }
+
+  article.wrap, time {
+    max-width: 500px;
+    margin: auto;
   }
 }
