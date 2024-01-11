@@ -93,6 +93,11 @@ section h2 {
 
 section h3 {
   padding-right: 20px;
+  font-family: 'GT Eesti Display Bold';
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 50%;
 }
 
 section.wrapup {
@@ -110,14 +115,6 @@ section.wrapup::before{
   width: 20px;
   border-radius: 2px;
   background-color: #111;
-}
-
-#makemodel-toc-positioner{
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  top: 500px;
-  left: 0;
 }
 
 .menu-toggle {
@@ -151,7 +148,7 @@ section.wrapup::before{
 .menu-toggle:checked + label + #toc-list {
   background-color: #FEECEC;
   opacity: 100%;
-  top: 12vw;
+  top: 5rem;
 }
 
 label[for='menu-toggle'] {
@@ -166,6 +163,79 @@ label[for='menu-toggle'] {
   height: 16px;
   width: 32px;
   padding-top: 16px;
+}
+
+#makemodelPositioner{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 1300px;
+  left: 0;
+}
+
+body.toc-top nav {
+  background-color: #FEECEC;
+}
+
+body.toc-top nav span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #9F2121;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+body.toc-top nav span:first-child {
+  transform-origin: 0% 0%;
+}
+
+body.toc-top nav span:nth-last-child(2) {
+  transform-origin: 0% 0%;
+}
+
+body.toc-top .menu-toggle:checked ~ label span {
+  opacity: 1;
+  transform: rotate(-45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+body.toc-top .menu-toggle:checked ~ label span:nth-last-child(2) {
+  transform: rotate(45deg) translate(-6px, -10px);
+}
+
+body.toc-top #toc-list {
+  border-radius: 10px;
+  box-shadow: 0px 5px 156px #FEECEC;
+  list-style: none;
+  margin: 0;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+  opacity: 0%;
+  position: fixed;
+  right: 5vmax;
+  top: -100%;
+}
+
+body.toc-top #toc-list li, body.toc-top #toc-list li a {
+   margin: 0;
+   line-height: 4rem;
+   padding: 0px 2rem;
+}
+
+body.toc-top #toc-list label {
+  display: block;
+  text-align: right;
+  padding-right: 6px;
 }
 
 
