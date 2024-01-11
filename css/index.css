@@ -149,6 +149,7 @@ section.wrapup::before{
   background-color: #FEECEC;
   opacity: 100%;
   top: 5rem;
+  width: auto;
 }
 
 label[for='menu-toggle'] {
