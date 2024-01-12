@@ -26,11 +26,13 @@ body * {
 }
 
 body::before {
+  border-radius: 20px;
+  margin: 2rem;
   content: "";
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
+  height: calc(100% - 4rem);
   width: 40%;
   background-image: url("../images/me.jpg");
   background-size: cover;
