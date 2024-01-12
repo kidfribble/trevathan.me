@@ -35,13 +35,14 @@ body::before {
   height: calc(100% - 4rem);
   width: 40%;
   background-image: url("../images/me.jpg");
+  mix-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
   opacity: 100%;
 
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  transition: all 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
@@ -54,27 +55,35 @@ article.wrap {
 
 html:is([data-zone="2"]) body::before {
   background-image: url("../images/rotation/img0001.jpg");
+  mix-blend-mode: multiply;
 }
 html:is([data-zone="3"]) body::before {
   background-image: url("../images/rotation/img0002.jpg");
+  mix-blend-mode: multiply;
 }
 html:is([data-zone="4"]) body::before {
   background-image: url("../images/rotation/img0003.jpg");
+  mix-blend-mode: multiply;
 }
 html:is([data-zone="5"]) body::before {
   background-image: url("../images/rotation/img0004.jpg");
+  mix-blend-mode: multiply;
 }
 html:is([data-zone="6"]) body::before {
   background-image: url("../images/rotation/img0005.jpg");
+  mix-blend-mode: multiply;
 }
 html:is([data-zone="7"]) body::before {
   background-image: url("../images/rotation/img0006.jpg");
+  mix-blend-mode: multiply;
 }
 html:is([data-zone="8"]) body::before {
   background-image: url("../images/rotation/img0007.jpg");
+  mix-blend-mode: multiply;
 }
 html:is([data-zone="9"]) body::before {
   background-image: url("../images/rotation/img0008.jpg");
+  mix-blend-mode: multiply;
 }
 
 time {
