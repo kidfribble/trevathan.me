@@ -285,6 +285,7 @@ body.toc-top #toc-list label {
 h1 {
   font-size: 2rem;
   font-size: clamp(2em, 5rem, 8vw);
+  font-family: "GT Eesti Display Bold";
   line-height: clamp(0.875em, 3rem, 5vw);
   margin-bottom: 6vw;
   max-width: 500px;
