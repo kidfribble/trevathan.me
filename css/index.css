@@ -125,11 +125,19 @@ section.background > div {
   display: flex;
 }
 
+section.makemodel {
+  margin-bottom: 0;
+}
+
 section h2 {
   grid-column-start: 1;
   grid-column-end: 2;
   max-width: 200px;
   padding-right: 1rem;
+}
+
+section.makemodel h2 {
+  margin: 0;
 }
 
 section h3 {
@@ -156,6 +164,19 @@ section.wrapup::before{
   width: 20px;
   border-radius: 2px;
   background-color: #111;
+}
+
+section.education span.awards, section.education span.awards {
+  display: block;
+}
+
+section.communication span.platform {
+  display: block;
+}
+
+section.communication a {
+  margin-bottom: 0;
+  display: block;
 }
 
 .menu-toggle {
@@ -299,8 +320,9 @@ h2 {
 .role {
   font-weight: 400;
   font-size: 1.75rem;
-  margin-bottom: 5vw;
-  padding-bottom: 3rem;
+  margin-bottom: 1vw;
+  margin-top: 0;
+  padding-bottom: 2rem;
   max-width: 600px;
   position: relative;
 }
