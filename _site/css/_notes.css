@@ -54,7 +54,6 @@ div.itstheart {
   border-radius: 20px;
   display: flex;
   margin: 2rem;
-  content: "";
   position: fixed;
   top: 0;
   left: 0;
@@ -78,13 +77,12 @@ div.itstheart object, div.itstheart img {
   overflow: hidden;
 }
 
-div.itstheart svg-animate {
-  overflow: hidden;
+div.itstheart object {
+  position: relative;
 }
 
 div.artwrap {
   align-items: center;
-  position: relative;
   display: flex;
   height: 100%;
   flex-grow: 1;

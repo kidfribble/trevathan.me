@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg-animate trigger="hover">
   <svg viewBox="0 0 119 229" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:anim="http://www.w3.org/2000/anim" anim="" anim:transform-origin="50% 50%" anim:duration="1" anim:ease="ease-in-out">
     <g id="Frame 1" clip-path="url(#clip0_94_117)">
       <rect width="119" height="229" fill="white"></rect>
@@ -16,4 +15,3 @@
       </clipPath>
     </defs>
   </svg>
-</svg-animate>

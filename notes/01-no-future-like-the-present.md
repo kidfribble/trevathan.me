@@ -7,7 +7,7 @@ postnumber: 1
 svgart: true
 art: house
 artwidth: 200
-artheight: 500
+artheight: 400
 ---
 
 I’m kicking off daily Steve Notes with a quote from a book I read some nine years ago. It was recommended by a friend after hearing my talk at Ember Conference in 2015 where I used the metaphor of the home, and networks of streets connecting neighborhoods of homes, as a mold for interpreting how we inhabit and consider the digital spaces of today.
