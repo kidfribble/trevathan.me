@@ -72,14 +72,6 @@ div.itstheart {
               opacity 0.55s ease;
 }
 
-div.artwrap {
-  align-items: center;
-  position: relative;
-  display: flex;
-  height: 100%;
-  flex-grow: 1;
-}
-
 div.itstheart object, div.itstheart img {
   margin: 0 auto;
   display: block;
@@ -88,6 +80,25 @@ div.itstheart object, div.itstheart img {
 
 div.itstheart svg-animate {
   overflow: hidden;
+}
+
+div.artwrap {
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+div.artwrap.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: auto;
+  margin-bottom: 0;
+  width: 100%;
 }
 
 body::before {
