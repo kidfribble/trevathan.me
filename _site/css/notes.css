@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'GT Eesti Display Light Italic';
+  src: url('../fonts/GT-Eesti-Display-Light-Italic.woff2') format('woff2'),
+       url('../fonts/GT-Eesti-Display-Light-Italic.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body::before {
+  background-image: none;
+  background-color: bisque;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+blockquote {
+  padding: 2rem;
+  margin: 0;
+  background-color: #F2E0DC;
+  border-radius: 4px;
+}
+
+blockquote p {
+  font-family: "GT Eesti Display Light Italic";
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin: 0;
+}

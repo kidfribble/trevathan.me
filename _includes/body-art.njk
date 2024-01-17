@@ -1,0 +1,12 @@
+{%- if svgart -%}
+<div class="itstheart">
+  <div class="artwrap">
+    <object data="../../images/svgs/{{ art }}.svg" width="{{ artwidth }}" height="{{ artheight }}" type="image/svg+xml">
+      <img src="../../images/svgs/fallbacks/house.jpg" />
+    </object>
+    {%- if artscript -%}
+      <script src="{{ artscript }}"></script>
+    {%- endif -%}
+  </div>
+</div>
+{%- endif -%}

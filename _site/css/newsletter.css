@@ -1,0 +1,10 @@
+.embeddable-buttondown-form {
+  position: relative;
+}
+
+.embeddable-buttondown-form label {
+  font-weight: bold;
+}
+.embeddable-buttondown-form input[type="submit"] {
+  background: green;
+}

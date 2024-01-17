@@ -1,0 +1,39 @@
+.embeddable-buttondown-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.embeddable-buttondown-form label {
+  font-weight: bold;
+  font-family: "GT Eesti Text Book";
+}
+
+.newsletter-inputs {
+  margin-bottom: 0;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  background: #F2E1DA;
+  border: none;
+  border-radius: 4px;
+  line-height: 42px;
+  text-indent: 1rem;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0;
+  padding: 0 1rem;
+}
