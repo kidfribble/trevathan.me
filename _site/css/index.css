@@ -124,6 +124,7 @@ section.background {
 
 section.background > div {
   display: flex;
+  width: 100%;
 }
 
 section.makemodel {
@@ -189,6 +190,7 @@ section.communication a {
   list-style: none;
   margin: 0;
   padding-left: 0;
+  position: relative;
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -239,6 +241,7 @@ label[for='menu-toggle'] {
 
 body.toc-top nav.tocnav {
   background-color: #FEECEC;
+  position: relative;
 }
 
 body.toc-top nav.tocnav span {
@@ -283,7 +286,6 @@ body.toc-top #toc-list {
   box-shadow: 0px 5px 156px #FEECEC;
   list-style: none;
   margin: 0;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
   opacity: 0%;
   position: fixed;
   right: 5vmax;

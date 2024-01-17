@@ -7,7 +7,7 @@ postnumber: 1
 svgart: true
 art: house
 artwidth: 200
-artheight: 500
+artheight: 400
 ---
 
 I’m kicking off daily Steve Notes with a quote from a book I read some nine years ago. It was recommended by a friend after hearing my talk at Ember Conference in 2015 where I used the metaphor of the home, and networks of streets connecting neighborhoods of homes, as a mold for interpreting how we inhabit and consider the digital spaces of today.
@@ -18,6 +18,6 @@ This quote means a lot more to me than what I had originally set out to hammer h
 
 - _pg. 61_ of **[The Poetics of Space](https://bookshop.org/p/books/the-poetics-of-space-gaston-bachelard/11705163?ean=9780143107521)** by Gaston Bachelard
 
-My take away is that **it is better to live in a state of impermanence than in one of finality.** The evolution of technology allows us to, with increased speed and fidelity, predict and envision our future. But at the same time, our house got a whole log bigger. And while the neighborhoods are fairly packed, there are parks. Many of us will use these as opportunities to solidify a dream. Perhaps we will find it in us to persue more. The rest of us will use these to continue to dream. And pursue nothing more, because nothing more should truly be required.
+My take away is that **it is better to live in a state of impermanence than in one of finality.** The evolution of technology allows us to, with increased speed and fidelity, predict and envision our future. But at the same time, our house got a whole lot bigger. And while the neighborhoods are fairly packed, there are parks. Many of us will use these as opportunities to solidify a dream. Perhaps we will find it in us to persue more. The rest of us will use these to continue to dream. And pursue nothing more, because nothing more should truly be required.
 
 The combination of both putting an achieved dream to rest and picking up the next is a challenge. As such, dreaming is the proven way to maintain a positive mindset when working in product, if you ask me. The house is expanding. We need to remember this.
