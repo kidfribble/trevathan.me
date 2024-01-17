@@ -312,6 +312,9 @@ body.toc-top #toc-list .return {
   display: inherit;
 }
 
+div.intro {
+  flex-direction: column;
+}
 
 /* Typography */
 h1 {
@@ -326,6 +329,10 @@ h1 {
 h2 {
   max-width: 570px;
   font-family: "GT Eesti Text Book";
+}
+
+div.intro h2 {
+  max-width: 800px;
 }
 
 .role {
