@@ -1,0 +1,43 @@
+---
+title: Steve Notes
+postdate: Jan 11 2024
+tags: post
+---
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/_notes.css">
+
+  </head>
+  <body class="notes">
+    <article class="wrap notes">
+      <nav aria-label="Main navigation" role="navigation" class="primary-nav">
+        <a href="/">History</a>
+        <a href="/notes" class="active"><span class="smile">&#x263B;</span> Notes</a>  
+      </nav>
+
+      {%- if art -%}
+        {% include "body-art.njk" %}
+      {%- endif -%}
+
+      <section id="background" class="background">        
+         <time><strong>{{ date | postDate }}</strong></time>
+         <h1>{{ title }}</h1>
+      </section>
+
+      <section>
+        {{ content | safe }}
+      </section>
+
+      {% include "./newsletter.html" %}
+
+    </article>
+  <div id="makemodelPositioner"></div>
+
+  </body>
+</html>

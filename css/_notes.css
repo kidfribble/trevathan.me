@@ -1,0 +1,103 @@
+@import url(_newsletter.css);
+
+@font-face {
+  font-family: 'GT Eesti Display Light Italic';
+  src: url('../fonts/GT-Eesti-Display-Light-Italic.woff2') format('woff2'),
+       url('../fonts/GT-Eesti-Display-Light-Italic.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body::before {
+  background-image: none;
+  background-color: bisque;
+}
+
+body.notes section {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 0 !important;
+}
+
+ul.post-collection {
+  list-style: none;
+  padding-left: 0;
+}
+
+span.post-count {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span.post-date {
+  opacity: 50%;
+}
+
+blockquote {
+  padding: 2rem;
+  margin: 0;
+  background-color: #F2E0DC;
+  border-radius: 4px;
+}
+
+blockquote p {
+  font-family: "GT Eesti Display Light Italic";
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+div.itstheart {
+  border-radius: 20px;
+  display: flex;
+  margin: 2rem;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: calc(100% - 4rem);
+  width: 40%;
+  mix-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  opacity: 100%;
+
+  transition: all 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+div.artwrap {
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-grow: 1;
+}
+
+div.itstheart object, div.itstheart img {
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+
+div.itstheart svg-animate {
+  overflow: hidden;
+}
+
+body::before {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  div.itstheart {
+   max-width: 500px;
+   margin: auto;
+   position: relative;
+ }
+}
