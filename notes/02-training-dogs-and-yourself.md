@@ -6,8 +6,6 @@ tags: ['post', 'training']
 postnumber: 2
 svgart: false
 art: dogs
-artwidth: 200
-artheight: 500
 images: true
 ---
 

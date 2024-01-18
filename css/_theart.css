@@ -1,0 +1,116 @@
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content:  url(../images/rotation/img0001.jpg)
+            url(../images/rotation/img0002.jpg)
+            url(../images/rotation/img0003.jpg) 
+            url(../images/rotation/img0004.jpg) 
+            url(../images/rotation/img0005.jpg) 
+            url(../images/rotation/img0006.jpg) 
+            url(../images/rotation/img0007.jpg) 
+            url(../images/rotation/img0008.jpg) 
+            url(../images/rotation/img0009.jpg);
+}
+
+article.wrap {
+  max-width: 1000px;
+  margin: 0 0 0 45%;
+}
+
+html body div.itstheart div.artwrap.image {
+  background-image: url("../images/rotation/me1.jpg");
+  mix-blend-mode: multiply;
+}
+
+html:is([data-zone="2"]) div.itstheart div.artwrap.image {
+  background-image: url("../images/rotation/img0001.jpg");
+  mix-blend-mode: multiply;
+}
+html:is([data-zone="3"]) div.itstheart div.artwrap.image {
+  background-image: url("../images/rotation/img0002.jpg");
+  mix-blend-mode: multiply;
+}
+html:is([data-zone="4"]) div.itstheart div.artwrap.image {
+  background-image: url("../images/rotation/img0003.jpg");
+  mix-blend-mode: multiply;
+}
+html:is([data-zone="5"]) div.itstheart div.artwrap.image {
+  background-image: url("../images/rotation/img0004.jpg");
+  mix-blend-mode: multiply;
+}
+html:is([data-zone="6"]) div.itstheart div.artwrap.image {
+  background-image: url("../images/rotation/img0005.jpg");
+  mix-blend-mode: multiply;
+}
+html:is([data-zone="7"]) div.itstheart div.artwrap.image {
+  background-image: url("../images/rotation/img0006.jpg");
+  mix-blend-mode: multiply;
+}
+html:is([data-zone="8"]) div.itstheart div.artwrap.image {
+  background-image: url("../images/rotation/img0007.jpg");
+  mix-blend-mode: multiply;
+}
+html:is([data-zone="9"]) div.itstheart div.artwrap.image {
+  background-image: url("../images/rotation/img0008.jpg");
+  mix-blend-mode: multiply;
+}
+
+div.itstheart {
+  border-radius: 20px;
+  display: flex;
+  margin: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: calc(100% - 4rem);
+  width: 40%;
+  mix-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  opacity: 100%;
+
+  transition: all 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+div.itstheart object, div.itstheart img {
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+
+div.itstheart object {
+  position: relative;
+}
+
+div.artwrap {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+div.artwrap.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: auto;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 860px) {
+  div.itstheart {
+   max-width: 500px;
+   margin: auto;
+   position: relative;
+ }
+}
