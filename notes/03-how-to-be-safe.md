@@ -25,7 +25,7 @@ It'll look something like this:
 
 ![Firefox Relay Example](../../images/notes/ff-relay-example.jpg)
 
-**[Mozilla VPN](https://www.mozilla.org/en-US/products/vpn/)** - I used to hang out in coffee shops and bars all of the time with laptop, so this made much more sense for me then. Today, it’s still a great travel utility. It simply gives you a private tunnel to the internet on whatever network you’re on. No ones snooping in your mail today. Other use cases include when services can only be accessed in a specific country and you happen to be travelling, or if you require any sort of security with data in your possession. 
+**[Mozilla VPN](https://www.mozilla.org/en-US/products/vpn/)** - I used to hang out in coffee shops and bars all of the time with laptop, so this made much more sense for me then. Today, it’s still a great travel utility. It simply gives you a private tunnel to the internet on whatever network you’re on. No one's snooping in your mail today. Other use cases include when services can only be accessed in a specific country and you happen to be traveling, or if you require any sort of security with data in your possession. 
 
 ![Mozilla VPN Example](../../images/notes/moz-vpn-example.jpg)
 
