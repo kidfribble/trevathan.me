@@ -10,9 +10,18 @@
 </div>
 {%- endif -%}
 
-{%- if not svgart -%}
+{%- if images and postnumber -%}
 <div class="itstheart">
   <div class="artwrap image" style="background-image: url(../../images/{{ art }}.jpg)">
+
+    {%- if artscript -%}
+      <script src="{{ artscript }}"></script>
+    {%- endif -%}
+  </div>
+</div>
+{%- elseif images -%}
+<div class="itstheart">
+  <div class="artwrap image">
 
     {%- if artscript -%}
       <script src="{{ artscript }}"></script>

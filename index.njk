@@ -1,3 +1,7 @@
+---
+images: true
+---
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -6,13 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="images/favicon.svg">
-    <link rel="preload" href="images/rotation/img0005.jpg" as="image">
-    <link rel="preload" href="images/rotation/img0015.jpg" as="image">
-    <link rel="preload" href="images/rotation/img0012.jpg" as="image">
-    <link rel="preload" href="images/rotation/img0010.jpg" as="image">
-    <link rel="preload" href="images/rotation/img0009.jpg" as="image">
-    <link rel="preload" href="images/rotation/img0007.jpg" as="image">
-    <link rel="preload" href="images/rotation/img0006.jpg" as="image">
   </head>
   <body id="return">
     <article class="wrap">
@@ -20,6 +17,9 @@
         <a href="/" class="active"><span class="smile">&#x263B;</span> History</a>
         <a href="/notes">Notes</a>  
       </nav>
+
+      {% include "body-art.njk" %}
+
       <section id="background" class="background">        
          <div class="intro">
            <h1>Hi, I'm Steven Trevathan.</h1>
