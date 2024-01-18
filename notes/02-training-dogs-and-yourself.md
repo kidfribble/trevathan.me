@@ -8,6 +8,7 @@ svgart: false
 art: dogs
 artwidth: 200
 artheight: 500
+images: true
 ---
 
 For anyone skilled in training dogs, you know the biggest “tricks” to success are simply to remain even-keeled, stubbornly persistent, and to avoid doing too much or too little. When you have the right heading, you must be the predictable element for the pups, and they will throw everything they have at you, testing your balance. They’re experimenting and learning, just like you did although they walk and run upon ariving home. Your routines, order of operations, and social patterns will allow them to learn and develop their behaviors around you (rather than the other way around). So, if your routine seems to double down around a behavior you’d rather they didn’t have, it’s time for an adjustment.
