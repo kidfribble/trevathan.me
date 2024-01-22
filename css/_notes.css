@@ -24,6 +24,15 @@ h1 {
 
 body.notes h2 {
   max-width: none;
+  margin-bottom: 0;
+}
+
+body.notes h3 {
+  margin-bottom: 0;
+}
+
+body.notes ul, body.notes ol {
+  max-width: 570px;
 }
 
 ul.post-collection {
