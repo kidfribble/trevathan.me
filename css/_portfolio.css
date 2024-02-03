@@ -96,6 +96,7 @@ div.workgroup.peering {
   position: fixed;
   background-color: #FEECEC;
   height: 100%;
+  max-height: none;
   top: 0;
   left: 0;
   width: 100%;
