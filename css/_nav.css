@@ -21,7 +21,7 @@
 
 .primary-nav a:focus span.smile, .primary-nav a.active span.smile {
   opacity: 100;
-  color: #9F2121;
+  color: var(--accentColor);
   font-size: 30px;
 }
 

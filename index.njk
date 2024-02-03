@@ -1,5 +1,6 @@
 ---
 images: true
+active: History
 ---
 
 <!DOCTYPE html>
@@ -14,10 +15,7 @@ images: true
   </head>
   <body id="return">
     <article class="wrap">
-      <nav aria-label="Main navigation" role="navigation" class="primary-nav">
-        <a href="/" class="active"><span class="smile">&#x263B;</span> History</a>
-        <a href="/notes">Notes</a>  
-      </nav>
+      {% include "nav.njk" %}
 
       {% include "body-art.njk" %}
 
