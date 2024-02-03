@@ -55,7 +55,6 @@ html:is([data-zone="9"]) div.portfolio-scroll-wrap {
   margin: 0 0 0 0vw;
 }
 
-
 div.portfolio-grid {
   display: flex;
   gap: 1rem;
@@ -105,10 +104,13 @@ div.workgroup.peering {
 }
 
 div.caption-wrap {
-  position: fixed;
   bottom: 0;
   margin: 0;
   width: 100%;
+}
+
+div.workgroup.peering div.caption-wrap {
+  position: fixed;
 }
 
 section h2 {
