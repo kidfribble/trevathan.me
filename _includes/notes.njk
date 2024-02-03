@@ -2,6 +2,7 @@
 title: Steve Notes
 postdate: Jan 11 2024
 tags: post
+active: Notes
 ---
 
 <!DOCTYPE html>
@@ -17,10 +18,7 @@ tags: post
   </head>
   <body class="notes">
     <article class="wrap notes">
-      <nav aria-label="Main navigation" role="navigation" class="primary-nav">
-        <a href="/">History</a>
-        <a href="/notes" class="active"><span class="smile">&#x263B;</span> Notes</a>  
-      </nav>
+      {% include "nav.njk" %}
 
       {%- if art -%}
         {% include "body-art.njk" %}

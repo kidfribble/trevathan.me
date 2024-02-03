@@ -1,5 +1,6 @@
 @import url(_nav.css);
 @import url(_theart.css);
+@import url(_colors.css);
 
 @font-face {
   font-family: 'GT Eesti Display Bold';
@@ -21,7 +22,7 @@ body {
   font-family: "Gill sans", "Gill Sans Nova", "DejaVu Sans", "Open Sans", "Lato", sans-serif;
   font-size: 1.5em;
   padding-top: 8vw;
-  background: #FEECEC;
+  background: var(--backgroundColor);
 }
 
 body * {
@@ -41,7 +42,7 @@ time {
   letter-spacing: 1px;
   line-height: 2rem;
   padding: 0.2rem 1rem 0 1rem;
-  background: #9F2121;
+  background: var(--accentColor);
   display: inline-block;
   border-radius: 4px;
   text-align: center;
@@ -162,7 +163,7 @@ section.communication a {
 
 label[for='menu-toggle'] {
   cursor: pointer;
-  color: #9F2121;
+  color: var(--accentColor);
   font-size: 2rem;
   font-family: 'GT Eesti Display Bold';
   position: fixed;
@@ -194,7 +195,7 @@ body.toc-top nav.tocnav span {
   margin-bottom: 5px;
   position: relative;
   
-  background: #9F2121;
+  background: var(--accentColor);
   border-radius: 3px;
   
   z-index: 1;
@@ -296,7 +297,7 @@ div.intro h2 {
   height: 4px;
   width: 20px;
   border-radius: 2px;
-  background-color: #9F2121;
+  background-color: var(--accentColor);
 }
 
 p {
@@ -309,7 +310,7 @@ ol, ul {
 }
 
 ol li::marker, ul li::marker {
-  color: #9F2121;
+  color: var(--accentColor);
   font-family: 'GT Eesti Display Bold';
   font-size: 1.5rem;
   font-weight: bold;
@@ -318,7 +319,7 @@ ol li::marker, ul li::marker {
 ol a, ul a {
   display: inline-block;
   text-decoration: none;
-  color: #9F2121;
+  color: var(--accentColor);
 }
 
 ol a:hover, ul a:hover {
@@ -368,7 +369,7 @@ ol ul, ul ul {
     margin-bottom: 5px;
     position: relative;
     
-    background: #9F2121;
+    background: var(--accentColor);
     border-radius: 3px;
     
     z-index: 1;
