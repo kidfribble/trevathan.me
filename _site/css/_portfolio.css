@@ -1,4 +1,4 @@
-section.mason {
+section.heading-wrap {
   display: flex;
   padding: 1vw 0;
   align-items: baseline;
@@ -206,18 +206,15 @@ section.logos {
 }
 
 ul.logo-list {
-  display: flex;
-  flex-flow: wrap row;
+  column-count: 5;
   width: 100%;
   list-style: none;
-  align-items: center;
   margin: 0;
   padding-left: 0;
 }
 
 ul.logo-list li{
-  min-width: 200px;
-  max-width: 400px;
+  min-height: 40px;
   margin: 0;
   padding: 1vw;
   box-sizing: border-box;
@@ -239,6 +236,10 @@ ul.logo-list img {
   flex-flow: row wrap;
   margin: auto;
   width: 80%;
+}
+
+div.masonry {
+  column-count: 6;
 }
 
 .image-dump img {
@@ -269,11 +270,18 @@ ul.logo-list img {
   }
 
   ul.logo-list {
-
+    column-count: 3;
+    column-gap: 1rem;
   }
 
   ul.logo-list li {
-    width: 30%;
+    width: 100%;
   }
 
+}
+
+@media screen and (max-width:600px) {
+  div.masonry {
+    column-count: 2;
+  }
 }

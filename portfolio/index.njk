@@ -19,7 +19,7 @@ active: Portfolio
       {% include "nav.njk" %}
       
       
-      <section class="mason">      
+      <section class="heading-wrap">      
         <div class="portfolio-heading">  
          <h1>This is my work.</h1>
          <p>Well, some it anyway. I'll write some content on each of these featured items very soon, so check back if you're inclined to.</p>
@@ -54,9 +54,11 @@ active: Portfolio
        <h2>There's also endless creative exploration to share.</h2>
        <p>I create a lot, and often, regardless of the medium. I'm a designer, developer, photographer, and musican. This section will see a lot of continuous updates, but beware: it's pretty much just an image dump right now.</p>
       </div>
-      {% for image in collections.portfolioAssets | reverse %}
-        <img src="../../{{image}}" />
-      {% endfor %}
+      <div class="masonry">
+        {% for image in collections.portfolioAssets | reverse %}
+          <img src="../../{{image}}" />
+        {% endfor %}
+      </div>
     </section>
     
   <script src="../scripts/img-rotation.js"></script>
