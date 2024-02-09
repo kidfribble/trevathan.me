@@ -1,18 +1,19 @@
 .primary-nav {
-  position: relative;
+  border-bottom: 1px solid var(--primaryColor);
+  display: flex;
+  padding-bottom: 1.25rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
 }
 
 .primary-nav a {
   color: black;
-  display: inline-block;
+  display: block;
   text-decoration: none;
   font-weight: 600;
-  padding: 1.125rem;
+  padding: 1.25rem;
   position: relative;
-}
-
-.primary-nav a:first-child {
-  padding-left: 0;
 }
 
 .primary-nav a span.smile {
@@ -21,7 +22,7 @@
 
 .primary-nav a:focus span.smile, .primary-nav a.active span.smile {
   opacity: 100;
-  color: var(--accentColor);
+  color: var(--primaryColor);
   font-size: 30px;
 }
 

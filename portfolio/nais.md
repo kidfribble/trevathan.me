@@ -6,7 +6,7 @@ tags: ['portfolio','UX', 'UI', 'Product Strategy']
 artsrc: ['../images/portfolio/NAIS-dasl.png', '../images/portfolio/NAIS-Display-Preferences.png', '../images/portfolio/NAIS-Upload-notice.png', '../images/portfolio/NAIS-processing-upload.png']
 ---
 
-## Product Design Lead / Creative Director
+# Product Design Lead / Creative Director
 
 The National Association of Independent Schools (NAIS) originally contracted with my team at Make&Model to make some quick adjustments to their data displays in MarketView (not shown here). We would rengage many times resulting in much of the work of mine that you see here.
 

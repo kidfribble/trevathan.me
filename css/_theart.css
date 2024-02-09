@@ -15,9 +15,26 @@ body::after {
             url(../images/rotation/img0009.jpg);
 }
 
-article.wrap {
-  max-width: 1000px;
-  margin: 0 0 0 45%;
+div.masthead-art {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  align-self: stretch;
+}
+
+div.masthead-art div.art {
+  align-self: stretch;
+  height: 40vh;
+  background-image: url(../images/rotation/me1.jpg);
+  mix-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body.portfolio div.masthead-art div.art {
+  background-image: url(../images/rotation/img0013.jpg);
 }
 
 html body div.itstheart div.artwrap.image {
@@ -59,14 +76,9 @@ html:is([data-zone="9"]) div.itstheart div.artwrap.image {
 }
 
 div.itstheart {
-  border-radius: 20px;
-  display: flex;
-  margin: 2rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: calc(100% - 4rem);
-  width: 40%;
+  margin: 0;
+  height: 40vw;
+  width: 100%;
   mix-blend-mode: multiply;
   background-size: cover;
   background-position: center;
@@ -83,6 +95,7 @@ div.itstheart object, div.itstheart img {
   margin: 0 auto;
   display: block;
   overflow: hidden;
+  height: 40vw;
 }
 
 div.itstheart object {
@@ -102,15 +115,6 @@ div.artwrap.image {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
-  height: auto;
   margin-bottom: 0;
   width: 100%;
-}
-
-@media screen and (max-width: 860px) {
-  div.itstheart {
-   max-width: 500px;
-   margin: auto;
-   position: relative;
- }
 }

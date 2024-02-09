@@ -1,6 +1,6 @@
 ---
 layout: notes.njk
-title: How to be safe on the internet, at home and beyond.
+title: How to be safe on the internet.
 date: 2024-01-18
 tags: ['post', 'digital security']
 postnumber: 3

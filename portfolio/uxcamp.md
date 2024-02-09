@@ -6,7 +6,7 @@ tags: ['portfolio','event']
 artsrc: ['../images/portfolio/uxcamp-7.jpg','../images/portfolio/uxcamp-5.jpg', '../images/portfolio/uxcamp-6.jpg','../images/portfolio/uxcamp-1.png', '../images/portfolio/uxcamp-2.png', '../images/portfolio/uxcamp-3.png', '../images/portfolio/uxcamp-4.png']
 ---
 
-## Founder & organizer of UX Camp
+# Founder & organizer of UX Camp
 2014–2018 (New York, California, Maine)
 
 UX camp is a design retreat of intentially limited size. 30 total campers escape the distracting city and focus on their craft together. Campers work, live, and eat alongside each other, speakers, workshoppers, organizers, and musical performers. It is a true treat and will see future iterations.
