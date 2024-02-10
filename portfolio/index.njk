@@ -109,11 +109,11 @@ active: Work
         </div>
       </div>
       <div class="col">
-      <div class="masonry">
-        {% for image in collections.portfolioAssets | reverse %}
-          <img src="../../{{image}}" />
-        {% endfor %}
-      </div>
+        <div class="masonry">
+          {% for image in collections.portfolioAssets | reverse %}
+            <img src="../../{{image}}" />
+          {% endfor %}
+        </div>
       </div>
     </section>
     </article>

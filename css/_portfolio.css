@@ -20,6 +20,8 @@ article.workgroup {
   border: 4px solid rgba(255, 255, 255, 1);
   box-shadow: 0 0 6px rgba(0,0,0,.1);
   border-radius: 6px;
+  display: flex;
+  flex-direction: column;
 }
 
 article.workgroup a.closeSet {
@@ -60,7 +62,7 @@ article.workgroup.peering div.caption-wrap {
   position: relative;
   display: flex;
   align-items: stretch;
-  max-width: 600px;
+  max-width: 400px;
   width: 100%;
 }
 
@@ -76,7 +78,7 @@ article.workgroup.peering div.artwrap {
 
   overflow-x: scroll;
   max-width: 100%;
-  
+  cursor: grab;
 }
 
 article.workgroup.peering a.closeSet {
@@ -265,5 +267,43 @@ div.masonry {
 @media screen and (max-width:600px) {
   div.masonry {
     column-count: 2;
+  }
+}
+
+
+
+
+@media screen and (max-width:950px) {
+
+  article.wrap {
+    flex-direction: column;
+  }
+
+  ul.logo-list {
+    display: none;
+  }
+
+  article.workgroup.peering {
+    flex-direction: column;
+    height: auto;
+    overflow: scroll;
+
+    display: block;
+    overflow-y: scroll;
+    height: 100%;
+  }
+
+  article.workgroup.peering div.caption-wrap {
+    max-width: none;
+  }
+  
+  article.workgroup.peering div.artwrap {
+    flex-direction: column;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  article.workgroup.peering div.artwrap img {
+    width: 100%;
   }
 }

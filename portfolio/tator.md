@@ -1,5 +1,5 @@
 ---
-title: Tator - by CVision
+title: Tator/CVision
 layout: portfolio-detail.njk
 date: 2024-01-21
 tags: ['portfolio','UX', 'UI']

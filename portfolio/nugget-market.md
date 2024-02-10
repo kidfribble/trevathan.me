@@ -1,5 +1,5 @@
 ---
-title: Nugget Market Grocery Inventory and BI software.
+title: Nugget Market Grocery
 layout: portfolio-detail.njk
 date: 2024-01-21
 tags: ['portfolio','UX', 'UI']

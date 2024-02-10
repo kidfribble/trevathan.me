@@ -1,5 +1,5 @@
 ---
-title: Imperfect Foods.
+title: Imperfect Foods
 layout: portfolio-detail.njk
 date: 2024-01-29
 tags: ['portfolio','UX', 'UI', 'Product Strategy']

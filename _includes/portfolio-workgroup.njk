@@ -4,7 +4,7 @@
   </div>
   <div class="artwrap images">
     {%- for art in post.data.artsrc -%}
-      <img src="{{art}}" />
+      <img src="{{art}}" draggable="false"/>
     {%- endfor -%}
   </div>
   <h3 class="art-title">{{post.data.title}}</h3>

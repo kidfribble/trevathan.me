@@ -25,18 +25,20 @@ active: Notes
     {% include "nav.njk" %}
     
     <article class="wrap notes">
-
-      <section>        
-         <time><strong>{{ date | postDate }}</strong></time>
-         
-         <h1>{{ title }}</h1>
-      </section>
-
-      <section>
-        {{ content | safe }}
-      </section>
-
-      {% include "./newsletter.html" %}
+      <div class="col">
+        <section>
+           <time><strong>{{ date | postDate }}</strong></time>
+           <h1>{{ title }}</h1>
+        </section>
+      </div>
+      <div class="col">
+        <section>
+          {{ content | safe }}
+        </section>
+      </div>
+      <div class="col">
+        {% include "./newsletter.html" %}
+      </div>
 
     </article>
   <div id="makemodelPositioner"></div>

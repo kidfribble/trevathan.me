@@ -9,12 +9,12 @@ body {
 }
 
 article.wrap {
-  column-count: 3;
   display: flex;
   padding: 1.25rem 1.25rem 1.25rem 0rem;
   align-items: flex-start;
   gap: 3.75rem;
   align-self: stretch;
+  flex-flow: row wrap;
 }
 
 div.col {
