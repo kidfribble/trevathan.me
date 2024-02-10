@@ -86,3 +86,12 @@ body.notes article section a {
   display: inline;
   color: var(--accentColor);
 }
+
+
+
+@media screen and (max-width:950px) {
+
+  article.wrap {
+    flex-direction: column;
+  }
+}
