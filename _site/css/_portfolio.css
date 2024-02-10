@@ -72,7 +72,7 @@ article.workgroup.peering div.artwrap {
   padding: 2rem;
   box-sizing: border-box;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 0.625rem;
   width: 100%;
 
