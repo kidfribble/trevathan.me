@@ -37,6 +37,13 @@ body.portfolio div.masthead-art div.art {
   background-image: url(../images/rotation/img0013.jpg);
 }
 
+body.notes div.masthead-art div.art {
+  background-image: url(../images/rotation/graphical-notation.png);
+  background-position: right;
+  background-size: contain;
+  background-color: antiquewhite;
+}
+
 html body div.itstheart div.artwrap.image {
   background-image: url("../images/rotation/me1.jpg");
   mix-blend-mode: multiply;
