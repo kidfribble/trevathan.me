@@ -84,7 +84,8 @@ body.notes article section img {
 
 body.notes article section a {
   display: inline;
-  color: var(--accentColor);
+  color: var(--primaryColor);
+  text-decoration: underline;
 }
 
 
