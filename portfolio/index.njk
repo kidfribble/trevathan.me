@@ -1,6 +1,6 @@
 ---
 images: true
-active: Portfolio
+active: Work
 ---
 
 <!DOCTYPE html>
@@ -14,52 +14,109 @@ active: Portfolio
     <link rel="icon" href="../images/favicon.svg">
     {% include "analytics.html" %}
   </head>
-  <body id="return" class="portfolio">
-    <article class="wrap">
+  <body class="portfolio">
+
+      {% include "masthead.njk" %}
       {% include "nav.njk" %}
       
-      
-      <section class="heading-wrap">      
-        <div class="portfolio-heading">  
-         <h1>This is my work.</h1>
-         <p>Well, some it anyway. I'll write some content on each of these featured items very soon, so check back if you're inclined to.</p>
-         <p>This interaction is a little wonky at the moment, but I'm keeping it for now. It'll get some improvements as I continue developing this.</p>
+      <article class="wrap">
+        <div class="col">
+          <section>      
+            <div class="intro">  
+             <h1>This is my work.</h1>
+             <p>Well, some it anyway. I'll write some content on each of these featured items very soon, so check back if you're inclined to.</p>
+             <p>This interaction is a little wonky at the moment, but I'm keeping it for now. It'll get some improvements as I continue developing this.</p>
+            </div>
+          </section>
+          <ul class="logo-list">
+          {% for logo in collections.logos %}
+            <li><img src="../../{{logo}}" /></li>
+          {% endfor %}
+          </ul>
         </div>
-      </section>
+        <div class="col">
+          <div class="portfolio-scroll-wrap">
+            <div class="portfolio-grid">
+              {% for post in collections.portfolio %}
+                {% include "portfolio-workgroup.njk" %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <section>
+            <h2>Leadership</h2>
+            <h3>
+              CEO, Make&amp;Model
+            </h3>
+            <time datetime="2017/2024">2017 - Present</time>
+            <div>
+              <ul>
+                <li><strong>Team Building and Project Excellence</strong>
+                  <ul>
+                    <li> Spearheaded the formation and development of a high-performing team specializing in product experience design, brand design, content strategy, and technology development.</li>
+                    <li>Consistently delivered industry-leading projects, maintaining a 100% client satisfaction rate within scope and budget.</li>
+                  </ul>
+                </li>
+                <li><strong>Leadership During Adversity</strong>
+                  <ul>
+                    <li>Successfully navigated the company through the challenges of the COVID-19 pandemic, ensuring business continuity and team well-being.</li>
+                    <li>Adapted business strategies to overcome pandemic-related hurdles, maintaining operational stability and securing vital funding through the PPP program.</li>
+                  </ul>
+                </li>
+                <li><strong>Diverse Client Portfolio and Project Delivery</strong>
+                  <ul>
+                    <li>Played a key role in acquiring and servicing over 50 diverse clients across sectors such as healthcare, education, fitness, environmental sustainability, grocery retail, end-of-life planning, AI & ML development, and philanthropy.</li>
+                    <li>Led multi-disciplinary project teams to deliver tailored solutions that consistently met varied client needs and expectations.</li>
+                  </ul>
+                </li>
+                <li><strong>Business Growth and Financial Achievement</strong>
+                  <ul>
+                    <li>Drove the company's growth from its inception to an established entity, achieving annual revenues nearing $1 million with a lean team of five full-time employees.</li>
+                    <li>Implemented effective business strategies and operational efficiencies that contributed to sustainable growth and financial health.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
 
-    </article>
+          <section>
+            <h3>Customer Success</h3>
+            <div>
+             
+              <ul>
+                <li><strong>Imperfect Foods</strong>: I collaborated with my design team during a growth phase to revitalize the design and content of their marketing website, e-commerce design patterns, and later developed a 5 year visual product roadmap, contributing to a kinder, less wasteful world. Our work led to a 17% decrease in cancellations, a 20-30% decrease in first order bounces, and a 10-12% increase in first and second average order value. <a href="https://www.makemodel.co/work/imperfect-foods" target="_blank">&#10230; Case study</a></li>
+                <li><strong>CVision</strong>: I directed the design of an open-source software experience for marine biologists to transform huge volumes of oceanic footage into meaningful data for AI training, which would at times used for piloting autonomous underwater vehicles. CVision was funded by NOAA and later lead to our work with MBARI (below). Their training and reporting product is now the standard for AI-driven oceanic research. <a href="https://www.makemodel.co/work/cvision" target="_blank">&#10230; Case study</a></li></li>
+                <li><strong>Monterey Bay Aquarium Research Institute</strong>: Following the creation of CVision's product, I directed the creation of FathomNet, a tool utilized by the marine sciences community for sharing and exploring oceanographic data, as well as aiding in research and education in understanding the marine environment. Think about it as a public database alike iNaturalist for the marine environment. This tool is now utilized by research institutes across the world to unite and improve their observational datasets. <a href="https://www.makemodel.co/work/mbari-fathomnet" target="_blank">&#10230; Case study</a></li>
+                <li><strong>National Association of Independent Schools</strong>: In a series of engagements with NAIS, I orchestrated the delivery of their new Market View, DASL, and Compensation Explorer products. Their focus is to allow folks in the business of running independent schools to better assess the trends of their addressable market as well as their spend on attaining new students, to compare and understand performance differences between schools, and to assure appropriately competitive compensation for employees. <a href="https://www.makemodel.co/work/nais" target="_blank">&#10230; Case study</a></li>
+                <li><strong>Better Place Forests</strong>: A past client who joined BPF as their CMO had asked me to bring in my team to “upcycle” their brand, to reconsider their entire marketing site content strategy, and to deliver an e-commerce experience designed to help make end-of-life planning more approachable, affordable, and environmentally sound. The relationship proved to be a huge success, enabling their expansion into midwest and eastern forests, and reducing decision friction and the difficulty around discussing death. <a href="https://www.makemodel.co/work/better-place-forests" target="_blank">&#10230; Case study</a></li>
+                <li><strong>CareerVillage</strong>: I performed many duties in our partnership with CareerVillage. I directed the design, development, and much of the operations behind producing their current product experience. CareerVillage helps youth get access to career advise they would normally have no clear means of attaining. <br/>
 
-    <div class="portfolio-scroll-wrap">
-      <div class="portfolio-grid">
-        {% for post in collections.portfolio %}
-          {% include "portfolio-workgroup.njk" %}
-        {% endfor %}
-      </div>
-    </div>
+                “Steven was extraordinary both as a Design leader and as a Product leader. Our progress was faster, our site was better, and our users were happier when we hired Steven than they'd ever been before. And he's set a direction for us that has stood the test of time. His impact on our work, and on our users, absolutely can NOT be overstated. I strongly recommend Steven in any context where clarity of thought and consistency of execution is the key to success.” - by Jared Chung, CEO of CareerVillage <a href="https://www.makemodel.co/work/careervillage" target="_blank">&#10230; Case study</a></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </article>
 
+
+    <article class="wrap">
     <section class="image-dump">
-      <section class="logos">      
+      <div class="col">
         <div class="portfolio-heading">  
-         <h2>There is a lot of history.</h2>
-         <p>This is a logo parade of customers I've had over the years. In all cases, I defined the design strategy, team makeup, timelines, and creative directed projects.</p>
+         <h2>There's also endless creative exploration to share.</h2>
+         <p>I create a lot, and often, regardless of the medium. I'm a designer, developer, photographer, and musican. This section will see a lot of continuous updates, but beware: it's pretty much just an image dump right now.</p>
         </div>
-        <ul class="logo-list">
-        {% for logo in collections.logos %}
-          <li><img src="../../{{logo}}" /></li>
-        {% endfor %}
-        </ul>
-      </section>
-
-      <div class="portfolio-heading">  
-       <h2>There's also endless creative exploration to share.</h2>
-       <p>I create a lot, and often, regardless of the medium. I'm a designer, developer, photographer, and musican. This section will see a lot of continuous updates, but beware: it's pretty much just an image dump right now.</p>
       </div>
-      <div class="masonry">
-        {% for image in collections.portfolioAssets | reverse %}
-          <img src="../../{{image}}" />
-        {% endfor %}
+      <div class="col">
+        <div class="masonry">
+          {% for image in collections.portfolioAssets | reverse %}
+            <img src="../../{{image}}" />
+          {% endfor %}
+        </div>
       </div>
     </section>
+    </article>
     
   <script src="../scripts/img-rotation.js"></script>
   <script src="../scripts/portfolio.js"></script>

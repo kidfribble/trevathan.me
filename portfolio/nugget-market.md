@@ -1,12 +1,12 @@
 ---
-title: Nugget Market Grocery Inventory and BI software.
+title: Nugget Market Grocery
 layout: portfolio-detail.njk
 date: 2024-01-21
 tags: ['portfolio','UX', 'UI']
 artsrc: ['../images/portfolio/nug-1.png', '../images/portfolio/nug-2.png', '../images/portfolio/nug-3.png']
 ---
 
-## Product Design Lead / Creative Director
+# Product Design Lead / Creative Director
 
 I worked with a small group of developers on a project to support Nugget Market as they transformed their grocery technology strategy to prepare for both using it themselves and licensing the grocer business management tools to others.
 

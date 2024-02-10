@@ -14,27 +14,29 @@ active: Notes
     {% include "./analytics.html" %}
   </head>
   <body class="notes">
-    <article class="wrap">
-      {% include "nav.njk" %}
-
-      <section id="background" class="background">        
-         <h1>These are my notes.</h1>
-          <nav>
-            <ul class="post-collection">
-              {%- for post in collections.post reversed -%}
-                <li>
-                  <span class="post-count">&#35;{{ post.data.postnumber }}</span>
-                  <a href="{{ post.url }}">{{ post.data.title }}</a>
-                  <span class="post-date">{{ post.date | postDate }}</span>
-                </li>
-              {%- endfor -%}
-            </ul>
-          </nav>
-      </section>
-
-      {% include "./newsletter.html" %}
+    {% include "masthead.njk" %}
+    {% include "nav.njk" %}
+    <article class="wrap notes">
+      <div class="col">
+       <h1>These are my notes.</h1>
+      </div>
+      <div class="col">
+        <nav>
+          <ul class="post-collection">
+            {%- for post in collections.post reversed -%}
+              <li>
+                <span class="post-count">&#35;{{ post.data.postnumber }}</span>
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+                <span class="post-date">{{ post.date | postDate }}</span>
+              </li>
+            {%- endfor -%}
+          </ul>
+        </nav>
+      </div>
+      <div class="col">
+        {% include "./newsletter.html" %}
+      </div>
 
     </article>
-  <div id="makemodelPositioner"></div>
   </body>
 </html>

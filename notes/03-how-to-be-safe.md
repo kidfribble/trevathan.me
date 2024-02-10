@@ -1,6 +1,6 @@
 ---
 layout: notes.njk
-title: How to be safe on the internet, at home and beyond.
+title: How to be safe on the internet.
 date: 2024-01-18
 tags: ['post', 'digital security']
 postnumber: 3
@@ -10,7 +10,7 @@ artwidth: 300
 artheight: 700
 ---
 
-## If you’re not using a password manager, today is the only day I will tell you to get one. This is your one call to action.
+### If you’re not using a password manager, today is the only day I will tell you to get one. This is your one call to action.
 It could take you some time to reset and change passwords, but considering that the process can be done as your services require you to authenticate, rather than attempting to spend a day or two changing all of your passwords at once, it's really not that bad.
 
 I'll briefly cover what I love about 1Password and why you should use it. While we’re at it, though - you might consider getting a few other cheap but related security services.

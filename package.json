@@ -21,6 +21,7 @@
     "@11ty/eleventy": "^2.0.1"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.1.2"
+    "@vercel/analytics": "^1.1.2",
+    "react-draggable": "^4.4.6"
   }
 }

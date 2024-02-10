@@ -22,6 +22,10 @@ h1 {
   margin-bottom: 0 !important;
 }
 
+.notes section time {
+  margin-bottom: 2.6rem;
+}
+
 body.notes h2 {
   max-width: none;
 }

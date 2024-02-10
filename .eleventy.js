@@ -17,6 +17,15 @@ module.exports = function(eleventyConfig) {
     return logoParade;
   });
 
+
+  const bioObject = fg.sync(['bio/**']);
+
+  //Create collection of bio posts
+  eleventyConfig.addCollection('bio', function(collection) {
+    console.log(bioObject)
+    return bioObject;
+  });
+
   eleventyConfig.addPassthroughCopy("fonts");
 
   eleventyConfig.addPassthroughCopy("css");
@@ -25,9 +34,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addGlobalData("navigation",
     [
-      ["History", "/"],
-      ["Notes", "/notes"],
-      ["Portfolio", "/portfolio"]
+      ["Bio", "/"],
+      ["Work", "/portfolio"],
+      ["Notes", "/notes"]
     ]);
 
   const { DateTime } = require("luxon");
