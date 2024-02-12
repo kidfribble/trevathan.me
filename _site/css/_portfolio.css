@@ -157,6 +157,7 @@ article.workgroup.peering div.caption {
   filter: none;
   width: auto;
   max-width: 1200px;
+  object-fit: scale-down;
 }
 
 .portfolio-scroll-wrap article.workgroup:hover {

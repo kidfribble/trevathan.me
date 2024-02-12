@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Webelos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/_notes.css">
+    <link rel="icon" href="../../images/favicon.svg">
+    <script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  </head>
+  <body class="notes"><div class="itstheart">
+  <div class="artwrap">
+    <object data="../../images/svgs/webelos-diagram.svg" width="200" height="400" type="image/svg+xml">
+    </object></div>
+</div><nav aria-label="Main navigation" role="navigation" class="primary-nav">
+
+  <a href="/" >
+  
+    Bio
+  </a>
+
+  <a href="/portfolio" >
+  
+    Work
+  </a>
+
+  <a href="/notes" class="active">
+  <span class="smile">&#x263B;</span>
+    Notes
+  </a>
+
+</nav>
+
+    
+    <article class="wrap notes">
+      <div class="col">
+        <section>
+           <time><strong>Feb 11, 2024</strong></time>
+           <h1>Webelos</h1>
+        </section>
+      </div>
+      <div class="col">
+        <section>
+          <p>What you see on this site is pretty simple today. Mostly html pages with a ton of images and columns for text. What’s going on is much more interesting.</p>
+<p>On the presentation and html file generation side, I’m building the site using <a href="https://www.11ty.dev/">11ty</a> and deploying on <a href="https://vercel.com/">Vercel</a> (which is watching my ‘main’ branch on the Github repo). This is essentially a turn key setup.</p>
+<p>Being a designer, perhaps I should more interested in the presentation layer (well, and the writing), but I am busy building a self-hosted markdown authoring system that allows me to send many file formats (.jpg, .heic, .md, .mp4, and so on) via an <a href="https://expo.dev/">Expo</a>/React Native mobile app interface that I developed to collect and pass data to a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">websocket</a> server running locally on a <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/">Raspberry Pi 4</a>. The Pi4 is also running <a href="https://imagemagick.org/index.php">ImageMagick</a> and <a href="https://ffmpeg.org/">FFmpeg</a> to process media into appropriate formats, then publishes these with the appropriate text files to a branch that is auto deployed for review on Vercel.</p>
+<p>This isn’t a completed work, but it’s also not overwhelmingly difficult to do and creates a frictionless way for me to contribute to my site from any device, and anywhere by using my <a href="https://www.wireguard.com/">WireGuard</a> VPN setup for home network access. Outside of the DNS and hosting costs I'd have to cover anyway, this doesn't cost me anything but a little electricity and elbow grease to do.</p>
+<p>While it isn’t something that’d make sense for a very broad audience,  I think some dev-minded designers like myself may also prefer to roll their own and get an infinitely configurable publishing interface. It’s fun, it teaches you things, and you won't even have to bash your brain against a system that contorts the web medium into a form suiting a wider audience. You get to apply what you know.</p>
+<p>The code for this will go up on GitHub as &quot;Webelos&quot;, along with an example site, code backing it, and methods for doing this yourself, <a href="https://github.com/kidfribble/webelos">right here</a>.</p>
+
+        </section>
+      </div>
+      <div class="col">
+        <section class='wrapup form'>
+  <p>If you like what you're reading, here's your chance to get more of it. I'll never send more than once per week, however notes get published here daily.</p>
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/stevenotes"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/stevenotes', 'popupwindow')"
+    class="embeddable-buttondown-form"
+  >
+    <label for="bd-email">📩 Notes by email </label>
+    <div class="newsletter-inputs">
+      <input type="email" name="email" id="bd-email" placeholder="Put it here, sport" />
+      <input type="submit" value="Subscribe &#8599;" />
+    </div>
+  </form>
+  <p>Until next time.</p>
+  <p>Steven</p>
+</section>
+      </div>
+
+    </article>
+  <div id="makemodelPositioner"></div>
+
+  </body>
+</html>
