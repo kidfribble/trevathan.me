@@ -17,7 +17,6 @@ module.exports = function(eleventyConfig) {
     return logoParade;
   });
 
-
   const bioObject = fg.sync(['bio/**']);
 
   //Create collection of bio posts
@@ -25,6 +24,8 @@ module.exports = function(eleventyConfig) {
     console.log(bioObject)
     return bioObject;
   });
+
+  eleventyConfig.addPassthroughCopy("portfolio/isolates");
 
   eleventyConfig.addPassthroughCopy("fonts");
 
