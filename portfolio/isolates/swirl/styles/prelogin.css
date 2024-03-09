@@ -1,0 +1,807 @@
+.isolate-body{
+  background-color: transparent;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+/*
+Pill styles to be transferred to app
+*/
+a.pill.sign_in {
+  background-color: #1a97a6;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a97a6), to(#136f79));
+/* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #1a97a6, #136f79);
+/* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #1a97a6, #136f79);
+/* FF3.6+ */
+  background-image: -ms-linear-gradient(top, #1a97a6, #136f79);
+/* IE10 */
+  background-image: -o-linear-gradient(top, #1a97a6, #136f79);
+  background-image: linear-gradient(to bottom, #1a97a6, #136f79);
+  border: medium none;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  color: #fff;
+  cursor: pointer;
+  font-family: LFT Etica, Helvetica, arial, sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 0.4px;
+  line-height: 18px;
+  padding: 8px 20px 7px;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+}
+body {
+  background: url("/images/consumer/noise_bg.jpg") repeat scroll 0 0 #f3f3f3;
+  box-shadow: 0 50px 80px #fff inset;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1;
+  text-align: center;
+}
+body.prelogin {
+  background: none;
+}
+body.prelogin div.navbar-fixed-top {
+  display: none;
+}
+body.prelogin div.wrapper {
+  max-width: 1280px;
+  min-width: 960px;
+  margin: auto;
+}
+body.prelogin div.header_wrap {
+  background: url("/images/consumer/hp_header_bg_b.jpg") repeat scroll 0 0 #fff;
+  box-shadow: 0 -97px 3px rgba(0,0,0,0.3) inset;
+  padding-top: 80px;
+  position: relative;
+  z-index: 1;
+}
+body.prelogin div.header_wrap div.description {
+  float: left;
+  margin-top: 130px;
+  text-align: left;
+  position: relative;
+  width: 51%;
+  z-index: 2;
+}
+body.prelogin div.header_wrap div.description img.logo {
+  display: block;
+  margin-bottom: 60px;
+}
+body.prelogin div.header_wrap div.description h1 {
+  color: #fff;
+  font-family: Avenir, helvetica, arial, san-serif;
+  font-size: 3.25em;
+  font-weight: 100;
+  line-height: 1.192em;
+  letter-spacing: -1px;
+  margin-bottom: 84px;
+  text-shadow: 0 -2px 1px rgba(0,0,0,0.2);
+}
+body.prelogin div.header_wrap div.description div.send_app_link_wrap {
+  display: inline-block;
+  position: relative;
+}
+body.prelogin div.header_wrap div.description a.sq_btn {
+  background: url("/images/consumer/hp_get_app.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 50px;
+  margin-bottom: 12px;
+  width: 294px;
+}
+body.prelogin div.header_wrap div.description a.sq_btn:hover {
+  background-position: 0 -50px;
+}
+body.prelogin div.header_wrap div.description div.send_app_link {
+  position: absolute;
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+  border-radius: 12px;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  padding: 20px;
+  width: 322px;
+}
+body.prelogin div.header_wrap div.description div.send_app_link:before {
+  border-left: 10px solid transparent;
+  content: "<";
+  border-right: 10px solid transparent;
+  text-indent: -9999px;
+  border-bottom: 10px solid #fff;
+  border-bottom: 10px solid rgba(255,255,255,0.9);
+  position: absolute;
+  left: 32px;
+  width: 0;
+  height: 0;
+  top: -10px;
+}
+body.prelogin div.header_wrap div.description div.send_app_link p {
+  color: #484848;
+  font-size: 1em;
+  font-family: avenir, helvetica, arial, sans-serif;
+  line-height: 1.2em;
+  margin-bottom: 12px;
+  max-width: 230px;
+}
+body.prelogin div.header_wrap div.description div.send_app_link p.option {
+  display: inline-block;
+  font-size: 0.875em;
+  line-height: 1.286em;
+  margin-top: 12px;
+  opacity: 0.6;
+  filter: "alpha(opacity=60)";
+}
+body.prelogin div.header_wrap div.description div.send_app_link p.option:hover {
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+}
+body.prelogin div.header_wrap div.description div.send_app_link input[type=text] {
+  display: inline-block;
+  font-size: 1em;
+  padding: 12px 14px 10px;
+  width: 175px;
+}
+body.prelogin div.header_wrap div.description div.send_app_link div.success h3 {
+  background: url("/images/consumer/mini_success.png") no-repeat scroll 0 2px transparent;
+  color: #92ac16;
+  padding-bottom: 6px;
+  font-weight: 100;
+  padding-left: 40px;
+  padding-top: 6px;
+  text-align: left;
+  font-size: 1.125em;
+}
+body.prelogin div.header_wrap div.description span {
+  color: #c3e6e9;
+  display: block;
+  font-family: minion pro, georgia, times new roman, serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.333em;
+  margin-left: 20px;
+}
+body.prelogin div.header_wrap div.description span a {
+  color: #e0fcff;
+  font-family: minion pro, georgia, times new roman, serif;
+  font-size: 1.125em;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1.333em;
+}
+body.prelogin div.header_wrap div.description span a:hover {
+  color: #fff;
+}
+body.prelogin div.header_wrap div.description ul.sharing {
+  margin-top: 36px;
+}
+body.prelogin div.header_wrap div.entrance {
+  position: absolute;
+  display: block;
+  top: 30px;
+  right: 30px;
+}
+body.prelogin div.body_wrap {
+  background: url("/images/consumer/hp_picket_bg.png") repeat-x scroll 0 0 transparent;
+  margin-top: -100px;
+  padding-top: 70px;
+  position: relative;
+  z-index: 2;
+}
+body.prelogin div.body_wrap div.inner_wrap {
+  background: #fff;
+}
+body.prelogin div.body_wrap ul.columns,
+body.prelogin div.body_wrap ul.quotes {
+  clear: both;
+  display: block;
+  width: 100%;
+}
+body.prelogin div.body_wrap ul.columns li,
+body.prelogin div.body_wrap ul.quotes li {
+  float: left;
+  padding-right: 0.78125%;
+  margin-bottom: 120px;
+  width: 32.8125%;
+}
+body.prelogin div.body_wrap ul.columns li:last-child,
+body.prelogin div.body_wrap ul.quotes li:last-child {
+  padding-right: 0;
+}
+body.prelogin div.body_wrap ul.columns li.last,
+body.prelogin div.body_wrap ul.quotes li.last {
+  padding-right: 0;
+}
+body.prelogin div.body_wrap ul.columns li img,
+body.prelogin div.body_wrap ul.quotes li img {
+  margin-bottom: 36px;
+}
+body.prelogin div.body_wrap ul.columns li h3,
+body.prelogin div.body_wrap ul.quotes li h3 {
+  color: #484848;
+  font-family: avenir, helvetica, arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.333em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+body.prelogin div.body_wrap ul.columns li p,
+body.prelogin div.body_wrap ul.quotes li p {
+  color: #8a8a8a;
+  font-size: 1em;
+  line-height: 1.5em;
+  max-width: 370px;
+  margin: auto;
+}
+body.prelogin div.body_wrap div.retailers {
+  min-width: 960px;
+  max-width: 1500px;
+  overflow: hidden;
+  margin: auto;
+}
+body.prelogin div.body_wrap div.retailers h2 {
+  background: url("/images/consumer/hp_retailers_heading.jpg") no-repeat scroll 0 0 transparent;
+  clear: both;
+  display: block;
+  height: 23px;
+  margin: auto auto 60px;
+  text-indent: -9999px;
+  width: 961px;
+}
+body.prelogin div.body_wrap div.retailers div.store_mosaic {
+  clear: both;
+  display: block;
+  float: left;
+  margin-bottom: 120px;
+  width: 100%;
+}
+body.prelogin div.body_wrap div.retailers div.store_mosaic ul {
+  display: block;
+  margin-left: -10%;
+  min-width: 1800px;
+  width: 120%;
+}
+body.prelogin div.body_wrap div.retailers div.store_mosaic ul li {
+  display: inline-block;
+  float: left;
+  height: 170px;
+  overflow: hidden;
+  opacity: 0;
+  position: relative;
+  width: 12.5%;
+}
+body.prelogin div.body_wrap div.retailers div.store_mosaic ul li:hover span.logo {
+  display: inline-block;
+}
+body.prelogin div.body_wrap div.retailers div.store_mosaic ul li span.logo {
+  background: none repeat scroll 0 0 rgba(0,0,0,0.3);
+  display: none;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+body.prelogin div.body_wrap div.retailers div.store_mosaic ul li span.logo img {
+  display: inline-block;
+  margin-top: 65px;
+}
+body.prelogin div.body_wrap div.retailers div.store_mosaic ul li img {
+  display: inline-block;
+  width: 100%;
+}
+body.prelogin div.body_wrap ul.quotes {
+  background: #fafafa;
+  padding-top: 40px;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.06);
+  margin-bottom: 120px;
+  border-radius: 12px;
+  width: 80%;
+  border: 1px solid #efefef;
+  margin: auto auto 120px auto;
+  padding: 60px 40px 20px 40px;
+}
+body.prelogin div.body_wrap ul.quotes li {
+  margin-bottom: 0px;
+}
+body.prelogin div.body_wrap ul.quotes li img {
+  height: 30px;
+}
+body.prelogin div.body_wrap ul.quotes li.clear {
+  clear: both;
+  float: none;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+body.prelogin div.body_wrap ul.quotes p {
+  color: #cb153c;
+  font-family: minion pro, georgia, times new roman, serif;
+  font-size: 1.375em;
+  font-style: italic;
+  line-height: 1.391em;
+  padding-bottom: 40px;
+  position: relative;
+}
+body.prelogin div.body_wrap ul.quotes p:before {
+  content: '\22';
+  color: #cfc8ba;
+  font-family: minion pro, georgia, times new roman, serif;
+  font-style: italic;
+  padding-right: 6px;
+  font-size: 1.455em;
+  line-height: 0.75em;
+}
+body.prelogin div.body_wrap ul.quotes p:after {
+  bottom: 40px;
+  content: '\22';
+  color: #cfc8ba;
+  font-family: minion pro, georgia, times new roman, serif;
+  font-style: italic;
+  padding-left: 6px;
+  position: absolute;
+  font-size: 1.455em;
+  line-height: 0.75em;
+}
+body.prelogin div.footer_wrap {
+  background: url("/images/consumer/hp_footer_top.jpg") repeat-x scroll 0 0 transparent;
+  clear: both;
+  display: block;
+  padding-top: 30px;
+  text-align: left;
+}
+body.prelogin div.footer_wrap .inner_wrap {
+  background: url("/images/consumer/hp_footer_bg.jpg") repeat scroll 0 0 transparent;
+  padding-bottom: 90px;
+  padding-top: 60px;
+}
+body.prelogin div.footer_wrap div.social {
+  color: #5a5a5a;
+  display: inline-block;
+  margin-left: 40px;
+}
+body.prelogin div.footer_wrap div.social p {
+  font-size: 0.875em;
+  line-height: 0.514em;
+  padding-bottom: 2px;
+  text-align: center;
+}
+body.prelogin div.footer_wrap div.social p:after {
+  color: rgba(0,0,0,0.1);
+  content: "____";
+  display: block;
+  padding: 0;
+  text-align: center;
+}
+body.prelogin div.footer_wrap div.social a {
+  display: inline-block;
+  height: 30px;
+  margin-right: 3px;
+  margin-top: 12px;
+  text-indent: -9999px;
+  width: 30px;
+}
+body.prelogin div.footer_wrap div.social a.fb {
+  background: url("/images/consumer/hp_fb_icon.png") no-repeat scroll 0 0 transparent;
+}
+body.prelogin div.footer_wrap div.social a.tw {
+  background: url("/images/consumer/hp_tw_icon.png") no-repeat scroll 0 0 transparent;
+}
+body.prelogin div.footer_wrap div.social a.pi {
+  background: url("/images/consumer/hp_pi_icon.png") no-repeat scroll 0 0 transparent;
+}
+body.prelogin div.footer_wrap ul.links {
+  display: block;
+  margin: -18px auto auto;
+  text-align: center;
+  width: 500px;
+}
+body.prelogin div.footer_wrap ul.links li {
+  color: #0c0e45;
+  display: inline-block;
+}
+body.prelogin div.footer_wrap ul.links li:after {
+  content: '\2022';
+}
+body.prelogin div.footer_wrap ul.links li a {
+  font-size: 0.875em;
+  line-height: 1.714em;
+  color: #0c0e45;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+body.prelogin div.footer_wrap ul.links li:last-child:after {
+  content: none;
+}
+body.prelogin div.footer_wrap ul.links li:last-child a {
+  padding-right: 0;
+}
+body.prelogin div.footer_wrap ul.sharing {
+  display: block;
+  float: right;
+  margin-right: 40px;
+  margin-top: -54px;
+}
+body.prelogin div.footer_wrap ul.sharing li {
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: top;
+}
+body.prelogin div.footer_wrap ul.sharing li:last-child {
+  margin-right: 0;
+}
+/*
+  Preview
+*/
+div.finger {
+  background: none repeat scroll 0 0 rgba(255,255,255,0.9);
+  border-radius: 60px 60px 60px 60px;
+  box-shadow: 1px 0 3px rgba(0,0,0,0.4);
+  display: none;
+  height: 60px;
+  left: 30px;
+  position: absolute;
+  top: 200px;
+  width: 60px;
+  z-index: 9999;
+}
+div.phone {
+  position: relative;
+  z-index: 1;
+}
+div.replay {
+  background: #fff;
+  background: none repeat scroll 0 0 rgba(255,255,255,0.9);
+  border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 6px 6px 0 0;
+  -o-border-radius: 6px 6px 0 0;
+  display: none;
+  height: 560px;
+  left: 38px;
+  position: absolute;
+  text-align: center;
+  top: 138px;
+  width: 320px;
+  z-index: 10000;
+}
+div.replay div.replay_inner {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+div.replay img.logo {
+  margin: auto;
+  width: 100px;
+  position: absolute;
+  left: 115px;
+  top: 312px;
+}
+div.replay a {
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid #00464a;
+  border-left: 30px solid rgba(0,70,74,0.9);
+  border-top: 20px solid transparent;
+  content: "<";
+  height: 0;
+  left: 147px;
+  position: absolute;
+  text-indent: -9999px;
+  top: 250px;
+  width: 0;
+}
+div.replay a:hover {
+  border-left: 30px solid #00464a;
+}
+div.shadow_pos {
+  display: block;
+  height: 785px;
+  margin: auto;
+  padding-top: 15px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+div.phone_shadow_l {
+  border-radius: 60px 60px 60px 60px;
+  box-shadow: 0 0 220px 50px #fff;
+  display: inline-block;
+  height: 730px;
+  position: relative;
+  width: 370px;
+  z-index: 2;
+}
+div.phone_shadow_d {
+  border-radius: 60px 60px 60px 60px;
+  box-shadow: 0 0 50px 20px rgba(0,0,0,0.4);
+  display: inline-block;
+  height: 730px;
+  position: relative;
+  width: 370px;
+  z-index: 1;
+}
+div.preview {
+  background: url("../images/consumer/preview/iphone5_bg.png") no-repeat scroll 0 0 transparent;
+  height: 811px;
+  margin: auto;
+  position: relative;
+  text-align: left;
+  width: 387px;
+  z-index: 10;
+}
+div.preview div.app_screens {
+  background: none repeat scroll 0 0 rgba(255,255,255,0.5);
+  border-radius: 6px 6px 0 0;
+  height: 560px;
+  left: 38px;
+  overflow: hidden;
+  position: absolute;
+  top: 138px;
+  width: 320px;
+}
+div.preview div.positioning {
+  height: 560px;
+  overflow: hidden;
+  position: absolute;
+  width: 320px;
+}
+div.preview div.positioning img {
+  max-width: 320px;
+  position: absolute;
+}
+div.preview div.positioning div.header {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  border-radius: 0 0 0 0;
+  height: 44px;
+  margin-bottom: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+div.preview div.positioning div.header img.header_1 {
+  position: absolute;
+  z-index: 9999;
+}
+div.preview div.positioning div.header img.header_2 {
+  position: absolute;
+  z-index: 9998;
+}
+div.preview div.positioning div.header img.header_3 {
+  position: absolute;
+  z-index: 9997;
+}
+div.preview div.positioning div.header img.header_4 {
+  position: absolute;
+  z-index: 9996;
+}
+div.preview div.positioning div.header img.header_5 {
+  position: absolute;
+  z-index: 9995;
+}
+div.preview div.positioning div.header img.header_6 {
+  position: absolute;
+  z-index: 9994;
+}
+div.preview div.positioning div.body {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+div.preview div.positioning div.body img.body_1 {
+  position: absolute;
+  z-index: 9999;
+}
+div.preview div.positioning div.body img.body_2 {
+  left: 110px;
+  position: absolute;
+  z-index: 9998;
+}
+div.preview div.positioning div.body img.body_3 {
+  left: 0px;
+  position: absolute;
+  z-index: 9997;
+}
+div.preview div.positioning div.body img.body_4 {
+  top: 44px;
+  right: 110px;
+  position: absolute;
+  z-index: 9996;
+}
+div.preview div.positioning div.body img.body_5 {
+  left: 320px;
+  position: absolute;
+  z-index: 9995;
+}
+div.preview div.positioning div.body img.body_6 {
+  left: 0px;
+  position: absolute;
+  opacity: 0;
+  filter: "alpha(opacity=0)";
+  z-index: 9994;
+}
+div.preview div.positioning div.body img.body_7 {
+  left: 0px;
+  position: absolute;
+  top: 44px;
+  z-index: 9993;
+}
+div.preview div.positioning div.body img.body_8 {
+  left: 320px;
+  position: absolute;
+  top: 0;
+  z-index: 9992;
+}
+div.preview div.positioning div.body img.body_9 {
+  left: 0px;
+  position: absolute;
+  top: 0;
+  z-index: 9991;
+}
+div.preview div.positioning div.body img.body_10 {
+  left: 0px;
+  position: absolute;
+  top: 44px;
+  z-index: 9990;
+}
+div.preview div.positioning div.tabbar {
+  bottom: 0;
+  height: 49px;
+  position: absolute;
+  z-index: 11;
+}
+div.preview div.positioning div.tabbar img.tabbar_1 {
+  z-index: 9999;
+  position: absolute;
+}
+div.preview div.positioning div.tabbar img.tabbar_2 {
+  z-index: 9997;
+  position: absolute;
+}
+div.preview div.scroller {
+  background: none repeat scroll 0 0 rgba(0,0,0,0.4);
+  border-radius: 4px 4px 4px 4px;
+  display: none;
+  height: 40px;
+  position: absolute;
+  right: 5px;
+  top: 50px;
+  width: 5px;
+  z-index: 9999;
+}
+div.preview a.tap {
+  height: 1px;
+  position: absolute;
+  width: 1px;
+}
+div.preview a.tap.set_0 {
+  right: 20px;
+  top: 22px;
+}
+div.preview a.tap.set_1 {
+  right: 20px;
+  top: 23px;
+}
+div.preview a.tap.set_2 {
+  bottom: 209px;
+  right: 40px;
+}
+div.preview a.tap.set_3 {
+  right: 84px;
+  top: 387px;
+}
+div.preview a.tap.set_4 {
+  right: 36px;
+  bottom: 64px;
+}
+div.preview a.tap.set_5 {
+  left: 32px;
+  top: 30px;
+}
+div.preview a.tap.set_6 {
+  left: 153px;
+  bottom: 25px;
+}
+div.preview a.tap.set_7 {
+  left: 153px;
+  top: 415px;
+}
+div.preview a.tap.set_8 {
+  left: 42px;
+  bottom: 66px;
+}
+div.preview a.tap.set_9 {
+  left: 153px;
+  bottom: 105px;
+}
+div.preview a.tap.set_10 {
+  left: 25px;
+  top: 25px;
+}
+/*
+ *Public Content
+*/
+body.public_content {
+  background: url("/images/consumer/public_bg.jpg") repeat scroll 0 0 #fff;
+}
+div.public_contain {
+  background: url("/images/consumer/public_border.jpg") repeat-x scroll 0 top transparent;
+  padding-top: 65px;
+  margin-bottom: 120px;
+}
+div.public_contain div.wrap {
+  width: 960px;
+}
+div.promo_column {
+  float: left;
+  padding-right: 2%;
+  padding-top: 30px;
+  position: relative;
+  text-align: center;
+  width: 26.125%;
+}
+div.promo_column a.logo {
+  background: url("/images/consumer/public_logo.png") no-repeat scroll 0 0 transparent;
+  float: none;
+  height: 34px;
+  margin: auto;
+  width: 170px;
+}
+div.promo_column h2 {
+  color: #555;
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 1em;
+  margin: auto;
+  max-width: 210px;
+  padding-top: 30px;
+}
+div.promo_column p {
+  color: #777;
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1.5em;
+  margin: auto;
+  max-width: 225px;
+  padding-bottom: 30px;
+  padding-top: 6px;
+}
+div.promo_column a.facebook_login {
+  background: url("/images/consumer/public_login.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 44px;
+  text-indent: -9999px;
+  width: 100%;
+  max-width: 198px;
+}
+div.promo_column a.facebook_login:hover {
+  background-position: 0 -44px;
+}
+div.promo_column span {
+  clear: both;
+  color: #999;
+  display: block;
+  font-size: 0.938em;
+  line-height: 1.6em;
+  padding-top: 6px;
+}
+div.promo_column a {
+  display: block;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+div.promo_column a.app_store {
+  background: url("/images/consumer/app_store.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 35px;
+  margin: 30px auto auto;
+  text-indent: -9999px;
+  width: 105px;
+}
