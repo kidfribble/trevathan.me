@@ -5,8 +5,7 @@ date: 2024-01-22
 tags: ['post', 'newsletter']
 postnumber: 5
 svgart: false
-art: /notes/1-newsletter-album-book
-images: true
+images: false
 bgsize: initial
 ---
 

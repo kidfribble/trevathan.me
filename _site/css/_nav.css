@@ -1,19 +1,26 @@
 .primary-nav {
-  border-bottom: 1px solid var(--primaryColor);
+  box-sizing: border-box;
+  background-color: var(--bgTransparent);
+  backdrop-filter: blur(2px);
   display: flex;
-  padding-bottom: 1.25rem;
+  padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   justify-content: space-between;
-  align-items: flex-start;
-  align-self: stretch;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
 }
 
 .primary-nav a {
+  align-self: baseline;
   color: black;
+  text-shadow: 0 0px 2px var(--backgroundColor) ;
   display: block;
   text-decoration: none;
   font-weight: 600;
   padding: 1.25rem;
   position: relative;
+  font-family: 'GT Eesti Display Bold';
 }
 
 .primary-nav a span.smile {
@@ -29,4 +36,24 @@
 .primary-nav a:visited {
   background: #eee;
   color: black;
+}
+
+
+@media screen and (max-width:430px) {
+  .primary-nav {
+    flex-wrap: wrap;
+  }
+  .primary-nav a:first-child {
+    padding: 1.25rem 1.25rem 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .primary-nav {
+    flex-wrap: wrap;
+  }
+  .primary-nav a, .primary-nav a:first-child {
+    padding: .25rem;
+  }
 }

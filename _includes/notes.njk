@@ -18,17 +18,17 @@ active: Notes
   </head>
   <body class="notes">
 
+    {% include "nav.njk" %}
+
     {%- if art -%}
       {% include "body-art.njk" %}
     {%- endif -%}
-
-    {% include "nav.njk" %}
     
     <article class="wrap notes">
+      <h1>{{ title }}</h1>
       <div class="col">
         <section>
            <time><strong>{{ date | postDate }}</strong></time>
-           <h1>{{ title }}</h1>
         </section>
       </div>
       <div class="col">

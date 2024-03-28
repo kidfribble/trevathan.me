@@ -1,5 +1,6 @@
 :root {
-  --primaryColor: #363636;
+  --primaryColor: #000000;
   --accentColor: #F1E1E1;
   --backgroundColor: #FEECEC;
+  --bgTransparent: #feececCC;
 }

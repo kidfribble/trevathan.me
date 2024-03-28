@@ -1,4 +1,7 @@
 <nav aria-label="Main navigation" role="navigation" class="primary-nav">
+
+<a href="/">S. Trevathan</a>
+
 {% for item in navigation %}
   <a href="{{item[1]}}" {% if item[0] == active %}class="active"{% endif %}>
   {% if item[0] == active %}<span class="smile">&#x263B;</span>{% endif %}

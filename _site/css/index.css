@@ -13,7 +13,7 @@ body {
 /* Index Intro */
 h1 {
   border-bottom: 4px solid var(--primaryColor);
-  padding-bottom: 2.6rem;
+  padding: 2.6rem;
   margin-bottom: 2.6rem;
 }
 
