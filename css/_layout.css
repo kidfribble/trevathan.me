@@ -9,6 +9,12 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width:430px) {
+  body {
+    padding-top: 8rem;
+  }
+}
+
 article.wrap {
   display: flex;
   padding: 1.25rem 1.25rem 1.25rem 0rem;
