@@ -27,7 +27,6 @@ div.masthead-art div.art {
   align-self: stretch;
   height: 40vh;
   background-image: url(../images/rotation/me1.jpg);
-  mix-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -84,9 +83,8 @@ html:is([data-zone="9"]) div.itstheart div.artwrap.image {
 
 div.itstheart {
   margin: 0;
-  height: 40vw;
+  height: 60vw;
   width: 100%;
-  mix-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

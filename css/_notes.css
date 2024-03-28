@@ -23,11 +23,29 @@ h1 {
 }
 
 .notes section time {
+  margin-top: 5.2rem;
   margin-bottom: 2.6rem;
 }
 
 body.notes h2 {
   max-width: none;
+}
+
+body.notes .itstheart {
+  mix-blend-mode: multiply;
+}
+
+article.wrap.notes {
+  max-width: none;
+
+  display: block;
+  width: 100%;
+  padding: 0rem;
+}
+
+article.wrap.notes div.col {
+  max-width: 650px;
+  margin: auto;
 }
 
 ul.post-collection {
