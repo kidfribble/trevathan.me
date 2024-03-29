@@ -85,8 +85,9 @@ article.workgroup.peering div.artwrap {
   flex-direction: column;
   gap: 0.625rem;
   mix-blend-mode: normal;
+  margin: auto;
+  max-width: 1400px;
   width: 100%;
-  max-width: 100%;
   overflow: visible;
 }
 
@@ -144,7 +145,7 @@ article.workgroup.peering div.caption {
   position: relative;
 }
 
-.portfolio-scroll-wrap article.workgroup.peering h3.art-title {
+.portfolio-scroll-wrap article.workgroup.peering h2.art-title {
   display: none;
 }
 
@@ -168,7 +169,6 @@ article.workgroup.peering div.caption {
   filter: none;
   height: auto;
   width: 100%;
-  max-width: 70%;
   object-fit: contain;
 }
 
@@ -300,7 +300,7 @@ div.masonry {
     flex-direction: column;
     height: auto;
     overflow: scroll;
-
+    padding: 1.25rem;
     display: block;
     overflow-y: scroll;
     height: 100%;
@@ -321,3 +321,4 @@ div.masonry {
     max-width: none;
   }
 }
+
