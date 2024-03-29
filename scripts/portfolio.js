@@ -25,37 +25,11 @@ function peerIn(e) {
   }
 }
 
-// Draggable
-const sliderSet = document.getElementsByClassName('artwrap');
-
-const startDragging = (e) => {
-  mouseDown = true;
-  startX = e.pageX - e.target.parentNode.offsetLeft;
-  scrollLeft = e.target.parentNode.scrollLeft;
-}
-
-const stopDragging = (e) => {
-  mouseDown = false;
-}
-
-const move = (e) => {
-  e.preventDefault();
-
-  if(!mouseDown) { return; }
-  const x = e.pageX - e.target.parentNode.offsetLeft;
-  const scroll = x - startX;
-  e.target.parentNode.scrollLeft = scrollLeft - scroll;
-}
-
-
-let mouseDown = false;
-let startX, scrollLeft;
-
-for (i = 0; i < sliderSet.length; i++) {
-  slider = sliderSet[i];
-  // Add the event listeners
-  slider.addEventListener('mousemove', move, false);
-  slider.addEventListener('mousedown', startDragging, false);
-  slider.addEventListener('mouseup', stopDragging, false);
-  slider.addEventListener('mouseleave', stopDragging, false);
-}
+document.body.addEventListener('keydown', function(e) {
+  if (e.key == "Escape" && document.getElementsByClassName('peering').length > 0) {
+    peerGroup = document.getElementsByClassName('peering');
+    peerGroup[0].classList.remove('peering');
+    document.body.classList.remove('inview');
+    return true;
+  }
+});
