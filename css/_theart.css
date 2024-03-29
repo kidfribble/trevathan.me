@@ -21,6 +21,7 @@ div.masthead-art {
   align-items: center;
   gap: 1.25rem;
   align-self: stretch;
+  margin-bottom: -40vh;
 }
 
 div.masthead-art div.art {
@@ -36,11 +37,12 @@ body.portfolio div.masthead-art div.art {
   background-image: url(../images/rotation/img0013.jpg);
 }
 
-body.notes div.masthead-art div.art {
+body.notes div.masthead-art div.art,
+body.career div.masthead-art div.art {
   background-image: url(../images/rotation/graphical-notation.png);
   background-position: right;
   background-size: contain;
-  background-color: antiquewhite;
+  mix-blend-mode: multiply;
 }
 
 html body div.itstheart div.artwrap.image {

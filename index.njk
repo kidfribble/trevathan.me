@@ -5,17 +5,8 @@ active: Bio
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>The Website of Steven Trevathan</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="images/favicon.svg">
-    {% include "analytics.html" %}
-  </head>
+  {% include "header.njk" %}
   <body>
-
-    {# {% include "masthead.njk" %} #}
 
     {% include "nav.njk" %}
 
@@ -27,10 +18,6 @@ active: Bio
         {% include "introduction.njk" %}
         {% include "body-art.njk" %}
         {% include "personal.njk" %}
-        {% include "career.njk" %}
-        {% include "education.njk" %}
-        {% include "writing-speaking.njk" %}
-        {% include "events.njk" %}
       </div>
 
     </article>
