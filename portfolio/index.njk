@@ -1,6 +1,6 @@
 ---
 images: true
-active: Work
+active: Design
 ---
 
 <!DOCTYPE html>
@@ -17,18 +17,17 @@ active: Work
   <body class="portfolio">
       {% include "nav.njk" %}
       
-      <h1>past </br>work</h1>
-      <article class="wrap">
-        <div class="col">
-          <div class="portfolio-scroll-wrap">
-            <div class="portfolio-grid">
-              {% for post in collections.portfolio %}
-                {% include "portfolio-workgroup.njk" %}
-              {% endfor %}
-            </div>
+      <h1>things done</h1>
+      <p>(I'm just scratching the surface here)</p>
+      <div class="col">
+        <div class="portfolio-scroll-wrap">
+          <div class="portfolio-grid">
+            {% for post in collections.portfolio %}
+              {% include "portfolio-workgroup.njk" %}
+            {% endfor %}
           </div>
         </div>
-      </article>
+      </div>
     
   <script src="../scripts/img-rotation.js"></script>
   <script src="../scripts/portfolio.js"></script>
