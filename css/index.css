@@ -5,6 +5,7 @@
 @import url(_typography.css);
 @import url(_tags.css);
 @import url(_isolates.css);
+@import url(_events.css);
 
 body {
   background: var(--backgroundColor);
@@ -36,7 +37,7 @@ section.wrapup::before{
   background-color: #111;
 }
 
-section.education span.awards, section.education span.awards {
+section.education span.school, section.education span.awards {
   display: block;
 }
 
