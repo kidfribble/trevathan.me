@@ -37,7 +37,7 @@ module.exports = function(eleventyConfig) {
     [
       ["Bio", "/"],
       ["Career", "/career"],
-      ["Work", "/portfolio"],
+      ["Design", "/portfolio"],
       ["Notes", "/notes"]
     ]);
 
