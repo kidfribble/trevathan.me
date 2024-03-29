@@ -47,12 +47,15 @@ h1 {
   font-family: "Triade";
   /* font-size: 18.75rem; */
   font-size: 16vw;
+  /* font-size: 10cqb; */
   font-style: normal;
   font-weight: 700;
   /* line-height: 16.875rem; */
   line-height: 15vw;
+  /* line-height: 10cqb; */
   margin-top: 0;
   text-align: center;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -63,6 +66,7 @@ h2 {
   font-weight: 700;
   line-height: normal;
   margin: 0;
+  margin-bottom: 1vmax;
 }
 
 h3 {
@@ -119,4 +123,10 @@ ol ul, ul ul {
 strong, b {
   font-family: "CorundumText SemiBold";
   font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+  h2 {
+    font-size: 2.625rem;
+  }
 }
