@@ -1,13 +1,18 @@
 ---
 title: Tator/CVision
 layout: portfolio-detail.njk
-date: 2024-01-21
+date: 2024-01-20
 tags: ['portfolio','UX', 'UI']
-artsrc: ['../images/portfolio/Tator-Overview.png','../images/portfolio/Tator-Review.png', '../images/portfolio/Tator-Management.png']
+artsrc: ['../images/portfolio/cover-image-cvision.png','../images/portfolio/Tator-Overview.png','../images/portfolio/Tator-Review.png', '../images/portfolio/Tator-Management.png']
 ---
 
-# Product Design Lead / Creative Director
+# Product Design Lead
 
-As the principle designer of Make&Model I worked with the CVision team and their customers to conceive of a user experience that would allow marine biologists and researchers to much more efficiently transform huge amounts of video data into actionable insights. Later in the project I worked with a brand designer from my team at Make&Model to work out the core brand tones that the website and the product would take on. The brand direction of this is the product of our collaboration, while the overall product design and organizational experience are my sole work product.
+As the principal designer at Make&Model, I collaborated with the CVision team and their customers to conceive a user experience that would allow marine biologists and researchers to transform huge amounts of video data into actionable insights much more efficiently. Later in the project, I worked with a brand designer from my team at Make&Model to establish the core brand tones that both the website and the product would adopt. The brand direction is the product of our collaboration, while the overall product design and organizational experience are my work.
 
-&#x263B;
+<ul class="labor">
+ <li>User Research</li>
+ <li>Prototyping</li>
+ <li>UX Design</li>
+ <li>Visual Design</li>
+</ul>

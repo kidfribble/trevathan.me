@@ -1,17 +1,22 @@
 ---
 title: Nugget Market Grocery
 layout: portfolio-detail.njk
-date: 2024-01-21
+date: 2024-04-21
 tags: ['portfolio','UX', 'UI']
-artsrc: ['../images/portfolio/nug-1.png', '../images/portfolio/nug-2.png', '../images/portfolio/nug-3.png']
+artsrc: ['../images/portfolio/cover-image-nuggetmarket.png','../images/portfolio/nug-1.png', '../images/portfolio/nug-2.png', '../images/portfolio/nug-3.png']
 ---
 
-# Product Design Lead / Creative Director
+# Experience Design Lead
 
-I worked with a small group of developers on a project to support Nugget Market as they transformed their grocery technology strategy to prepare for both using it themselves and licensing the grocer business management tools to others.
+As an independent contractor, I collaborated with a small group of developers on a project for Nugget Market, aimed at transforming their grocery technology for both internal use and licensing to other grocery businesses.
 
-* UX research of grocery inventory management, point of sale, and purchase order experiences
-* UX design and prototyping
-* Over the course of this project I tested and delivered many different functional areas of the suite, trained one designer up on the project for my client, and ran several ideation workshops to source ideas for exploration, testing, and to keep momentum on the creative work.
+My role was partly advisory, focusing on refining the visual design alongside the team's efforts in grocery inventory management, point-of-sale, and purchase order experiences.
 
-&#x263B;
+Throughout the project, I tested and delivered numerous functional areas of the suite, trained a designer for my client, and led several ideation workshops. These workshops were crucial for sourcing ideas for exploration and testing, and for maintaining momentum in the creative process.
+
+<ul class="labor">
+ <li>UX Design</li>
+ <li>Prototyping</li>
+ <li>User Testing</li>
+ <li>Visual Design</li>
+</ul>
