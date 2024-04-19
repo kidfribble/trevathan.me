@@ -6,9 +6,10 @@
   padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   justify-content: space-between;
   position: fixed;
-  top: 0;
   z-index: 3;
-  width: 100%;
+  left: 1.25rem;
+  right: 1.25rem;
+  top: 1.25rem;
 }
 
 .primary-nav a {

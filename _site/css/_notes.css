@@ -20,10 +20,10 @@ body.notes section {
 
 h1 {
   margin-bottom: 0 !important;
+  padding-left: 0;
 }
 
 .notes section time {
-  margin-top: 5.2rem;
   margin-bottom: 2.6rem;
 }
 
