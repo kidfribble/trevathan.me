@@ -1,3 +1,19 @@
-<div class="masthead-art">
-  <div class="art"></div>
+<div class="{%- if mastheadArt -%}masthead-block{%- else -%}masthead-block noArt{%- endif -%}">
+  <div class="col">
+    <h1>{{ header }}</h1>
+    {%- if subheader -%}<h3>{{ subheader }}</h3>{%- endif -%}
+
+    {%- if mastheadArt -%}
+    <div class="masthead-art">
+      <img src="images/masthead/{{mastheadArt}}" />
+      <span>Self portrait - 2008 - 35mm (click image to rotate photography)</span>
+    </div>
+    {%- endif -%}
+  </div>
+
+  {%- if testimonial -%}
+  <div class="col">
+    {% include "blockquote.njk" %}
+  </div>
+  {%- endif -%}
 </div>

@@ -1,20 +1,20 @@
 .primary-nav {
   box-sizing: border-box;
-  background-color: var(--bgTransparent);
+  background-color: var(--darkGrey);
   backdrop-filter: blur(2px);
   display: flex;
   padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   justify-content: space-between;
   position: fixed;
-  top: 0;
   z-index: 3;
-  width: 100%;
+  left: 1.25rem;
+  right: 1.25rem;
+  top: 1.25rem;
 }
 
 .primary-nav a {
   align-self: baseline;
-  color: black;
-  text-shadow: 0 0px 2px var(--backgroundColor) ;
+  color: var(--accentColor);
   display: block;
   text-decoration: none;
   font-weight: 600;
@@ -29,13 +29,13 @@
 
 .primary-nav a:focus span.smile, .primary-nav a.active span.smile {
   opacity: 100;
-  color: var(--primaryColor);
+  color: var(--accentColor);
   font-size: 30px;
 }
 
 .primary-nav a:visited {
   background: #eee;
-  color: black;
+  color: var(--accentColor);
 }
 
 

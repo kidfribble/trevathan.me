@@ -1,6 +1,9 @@
 ---
 images: true
-active: Bio
+active: Philosophy
+header: Product design leader, entrepreneur, community evangelist, technologist, photographer, musician, and fitness enthusiast.
+testimonial: jared
+mastheadArt: index-portrait.png
 ---
 
 <!DOCTYPE html>
@@ -10,14 +13,14 @@ active: Bio
 
     {% include "nav.njk" %}
 
-    <h1>Truh </br>vay </br>thin</h1>
-    <p>(it's how its pronounced)</p>
+    {% include "masthead.njk" %}
+
     <article class="wrap">
 
       <div class="col">
-        {% include "introduction.njk" %}
-        {% include "body-art.njk" %}
-        {% include "personal.njk" %}
+        {% include "philosophies.njk" %}
+        {# {% include "body-art.njk" %}
+        {% include "personal.njk" %} #}
       </div>
 
     </article>
