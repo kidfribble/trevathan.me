@@ -20,6 +20,9 @@ body.notes section {
 
 h1 {
   margin-bottom: 0 !important;
+}
+
+.notes article h1{
   padding-left: 0;
 }
 
