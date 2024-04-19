@@ -15,6 +15,13 @@ body {
   }
 }
 
+.masthead-block {
+  background-color: var(--darkGrey);
+  display: flex;
+  color: var(--accentColor);
+  min-height: 78vh;
+}
+
 article.wrap {
   display: flex;
   padding: 1.25rem 1.25rem 1.25rem 0rem;
