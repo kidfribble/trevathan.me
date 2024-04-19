@@ -134,12 +134,3 @@ strong, b {
   font-weight: bold;
 }
 
-@media screen and (max-width:600px) {
-  h1 {
-    font-size: 12vw;
-  }
-
-  h2 {
-    font-size: 2.625rem;
-  }
-}

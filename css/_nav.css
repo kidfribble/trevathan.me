@@ -44,16 +44,15 @@
     flex-wrap: wrap;
   }
   .primary-nav a:first-child {
-    padding: 1.25rem 1.25rem 0;
     width: 100%;
   }
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:490px) {
   .primary-nav {
     flex-wrap: wrap;
   }
-  .primary-nav a, .primary-nav a:first-child {
-    padding: .25rem;
+  .primary-nav a {
+    padding: 0;
   }
 }
