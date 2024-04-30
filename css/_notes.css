@@ -24,6 +24,8 @@ h1 {
 
 .notes article h1{
   padding-left: 0;
+  border-top: 1px solid var(--primaryColor);
+  width: 100%;
 }
 
 .notes section time {
@@ -31,7 +33,17 @@ h1 {
 }
 
 body.notes h2 {
+  margin-top: 1.5vmax;
   max-width: none;
+}
+
+body.notes h3 {
+  margin-top: 1.5vmax;
+}
+
+body.notes ul {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 body.notes .itstheart {
@@ -109,7 +121,51 @@ body.notes article section a {
   text-decoration: underline;
 }
 
+body.notes table {
+  border: 1px solid var(--primaryColor);
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  font-size: 1.25rem;
+  margin-left: -25%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 150%;
+}
 
+body.notes table thead th {
+  position: sticky; 
+  top: 0;
+  z-index: 1;
+}
+
+body.notes table th {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: var(--backgroundColor);
+  border-bottom: 2px solid var(--primaryColor);
+  box-sizing: border-box;
+  padding: 0.625rem;
+}
+
+body.notes table tr {
+  border-bottom: 1px solid #555;
+}
+
+body.notes table td {
+  border-spacing: 2rem;
+  border-bottom: 1px dotted #999;
+  box-sizing: border-box;
+  line-height: 1rem;
+  padding: 1rem 0 1rem;
+  text-indent: 0.625rem;
+}
+
+body.notes table tr td:nth-child(1),
+body.notes table th:nth-child(1) {
+  background-color: var(--accentColor);
+}
 
 @media screen and (max-width:950px) {
 

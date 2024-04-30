@@ -1,5 +1,6 @@
 .masthead-block {
   align-items: center;
+  border-radius: 4px;
   background-color: var(--darkGrey);
   display: flex;
   color: var(--accentColor);
