@@ -4,7 +4,6 @@
  date: 2024-04-22
  tags: ['draft', 'free-write']
  postnumber: 10
- draft: true
 ---
 
 I'm about three months away from starting my second marathon training, this time for an ultramarathon covering 50k, and there are many things I plan to do differently. Anyone undertaking a challenging endeavor for the first time is bound to learn a great deal about that activity, what made it difficult for them, and how they might approach it differently in the future.

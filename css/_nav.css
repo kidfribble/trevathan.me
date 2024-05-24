@@ -11,14 +11,15 @@
 }
 
 .primary-nav a {
-  align-self: baseline;
+  align-self: center;
   color: var(--darkGrey);
-  display: block;
-  text-decoration: none;
+  display: flex;
   font-weight: 600;
+  font-family: 'GT Eesti Display Bold';
+  text-decoration: none;
   padding: 1.25rem;
   position: relative;
-  font-family: 'GT Eesti Display Bold';
+  vertical-align: middle;
 }
 
 .primary-nav a.its-my-name.steven {
@@ -30,19 +31,18 @@
 
 .primary-nav a span.smile {
   opacity: 0;
+  font-size: 1.5rem;
 }
 
 .primary-nav a:focus span.smile, .primary-nav a.active span.smile {
   opacity: 100;
   color: var(--darkGrey);
-  font-size: 1rem;
 }
 
 .primary-nav a:visited {
   background: #eee;
   color: var(--darkGrey);
 }
-
 
 @media screen and (max-width:550px) {
   .primary-nav {
