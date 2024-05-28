@@ -4,6 +4,7 @@
  date: 2024-03-20
  tags: ['post', 'free-write']
  postnumber: 9
+ draft: false
 ---
 
 Angling upward to the left and fading into darkness, unseen. Tree branches cast 

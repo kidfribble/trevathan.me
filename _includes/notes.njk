@@ -22,6 +22,9 @@ active: Notes
 
     {%- if art -%}
       {% include "body-art.njk" %}
+      {%- if artcaption -%}
+       <span class="art-caption">{{artcaption}}</span>
+      {%- endif -%}
     {%- endif -%}
     
     <article class="wrap notes">

@@ -1,43 +1,49 @@
 .primary-nav {
   box-sizing: border-box;
-  background-color: var(--darkGrey);
   backdrop-filter: blur(2px);
   display: flex;
-  padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  padding: 0.875rem;
   justify-content: space-between;
-  position: fixed;
-  z-index: 3;
   left: 1.25rem;
   right: 1.25rem;
   top: 1.25rem;
+  vertical-align: center;
 }
 
 .primary-nav a {
-  align-self: baseline;
-  color: var(--accentColor);
-  display: block;
-  text-decoration: none;
+  align-self: center;
+  color: var(--darkGrey);
+  display: flex;
+  line-height: 1.5rem;
   font-weight: 600;
+  font-family: 'GT Eesti Display Bold';
+  text-decoration: none;
   padding: 1.25rem;
   position: relative;
-  font-family: 'GT Eesti Display Bold';
+  vertical-align: middle;
+}
+
+.primary-nav a.its-my-name.steven {
+  border-radius: 4px;
+  color: var(--accentColor);
+  background-color: var(--primaryColor);
+  padding: 3px;
 }
 
 .primary-nav a span.smile {
   opacity: 0;
+  font-size: 1.5rem;
 }
 
 .primary-nav a:focus span.smile, .primary-nav a.active span.smile {
   opacity: 100;
-  color: var(--accentColor);
-  font-size: 30px;
+  color: var(--darkGrey);
 }
 
 .primary-nav a:visited {
   background: #eee;
-  color: var(--accentColor);
+  color: var(--darkGrey);
 }
-
 
 @media screen and (max-width:550px) {
   .primary-nav {
