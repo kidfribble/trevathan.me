@@ -2,18 +2,15 @@
  layout: notes.njk
  title:  My Ultramarathon Training & Fundraiser
  date: 2024-04-22
- tags: ['published', 'free-write']
+ tags: ['post', 'free-write']
  postnumber: 10
  draft: false
+ images: true
+ art: notes/desertrun
+ artcaption: Photo credit to my friends at Linked Ring, who took the opportunity to snag a CamelPak promo shot after I got my rental car stuck in the Bonneville Salt Flats.
 ---
 
-I'm about six weeks away from starting my second marathon training, this time for an ultramarathon covering 50k. There are many things I plan to do differently this time. Anyone undertaking a challenging endeavor for the first time is bound to learn a great deal about that activity, what made it difficult for them, and how they might approach it differently in the future.
-
-Last time, I "trained to train," and this approach was _definitely_ beneficial. I exercised most days, limiting my total weekly mileage to fewer than 10 miles and focusing more on strength training and yoga. This strategy worked well for my fitness level at the time and set me up for success with the kind of strain I was about to put my body through when the real training began. That's when the learning truly started. My form, shoes, mindset, diet, and guilty habits were all suddenly up for adjustment.
-
-Today, I'm exercising for about 90 minutes every day, primarily focusing on yoga, strength training, biking, and hiking. It's a lot of activity, broken up into multiple sessions throughout the day. I don't think I could have made this a routine if not for having trained for that first marathon and experiencing what it was like to fully commit and endure such grueling physical work.
-
-In gearing up for my upcoming runs, I thought I should write my learnings down and see if I can't raise some money during my training for a cause that is dear to me. With this post I'm sharing some of my key takeaways from my prior training experience, and if you find yourself interested in these activities - especially if you're considering undertaking this sort of extended training yourself - I hope you'll share your own experience.
+I'm about six weeks away from starting my second marathon training, this time for an ultramarathon covering 50k. Anyone undertaking a challenging endeavor for the first time is bound to learn a great deal about that activity, what made it difficult for them, and how they might approach it differently in the future. So there are many things I plan to do differently this time, and in this post I'm going to break some of that down for you. One of those things that I'll state off the bat is that I'm aiming to [raise a minimum of $2,000](https://tiltify.com/@steven-trevathan/50k-of-steven-believin) for the American Foundation for Suicide Prevention, and I hope by the time you complete this reading that you'll become a donor yourself. Let's get started.
 
 ### Table of Contents
 1. [Training for Training](#training-for-training)
@@ -23,6 +20,10 @@ In gearing up for my upcoming runs, I thought I should write my learnings down a
 5. [The Race Training](#the-race-training)
 
 ## Training for Training <a name="training-for-training"></a>
+Last time, I "trained to train," and this approach was _definitely_ beneficial. I exercised most days, limiting my total weekly mileage to fewer than 10 miles and focusing more on strength training and yoga. This strategy worked well for my fitness level at the time and set me up for success with the kind of strain I was about to put my body through when the real training began. That's when the learning truly started. My form, shoes, mindset, diet, and guilty habits were all suddenly up for adjustment.
+
+Today, I'm exercising for about 90 minutes every day, primarily focusing on yoga, strength training, biking, and hiking. It's a lot of activity, broken up into multiple sessions throughout the day. I don't think I could have made this a routine if not for having trained for that first marathon and experiencing what it was like to fully commit and endure such grueling physical work.
+
 Growing up, I played baseball and became somewhat comfortable with homegrown gymnastics, doing all sorts of ill-advised childhood stunts. Moreover, I learned about gymnastics form and training when dating a wonderfully talented and patient person who was a gymnastics coach at the time (now a trapeze artist). My point in sharing this: I'm starting from a different place than many, and I want to underscore that what you're reading here should be seen through that lens. What I've done in the past is not a requirement, but it is my starting place, and it's far from starting at zero.
 
 Once my career in design truly started after college, however, I became another hunched-over human being bound to their computer and stressing out to keep my woefully underpaid and truly terrible first job. This led to numerous injuries due to inactivity, hunching over for endless hours, getting very little sleep (I once billed 140 hours in one week at that job), and having very few hobbies that involved my body doing anything without a keyboard and mouse.
@@ -80,18 +81,18 @@ Nevertheless, I'm sharing this because it represents a challenging yet manageabl
 
 | Exercise                      | Sets                              | Reps     | Weight                        |
 | ----------------------------- | --------------------------------- | -------- | ----------------------------- |
-| Squats                        | 3                                 | 10       | 145 pounds (barbell included) |
-| Leg lifts                     | 3                                 | 20       | -                             |
-| Dumbbell presses              | 3                                 | 20       | 30 pounds                     |
-| Lying dumbbell pullovers      | 3                                 | 20       | 30 pounds                     |
-| Dumbbell rows                 | 3                                 | 20       | 30 pounds                     |
-| Bicep Curls (20 pounds)       | 3                                 | 20       | 20 pounds                     |
-| Bicep Curls (30 pounds)       | 2                                 | 10       | 30 pounds                     |
-| Tricep extensions             | 2                                 | 15       | 30 pounds                     |
-| Inclined sit-ups (first set)  | 3                                 | 20       | -                             |
-| Inclined sit-ups (second set) | 2                                 | 30       | -                             |
+| Squats                        | 3 <span class="helper">sets</span>                                | 10 <span class="helper">reps</span>      | 145 pounds (barbell included) |
+| Leg lifts                     | 3 <span class="helper">sets</span>                                | 20 <span class="helper">reps</span>      | -                             |
+| Dumbbell presses              | 3 <span class="helper">sets</span>                                | 20 <span class="helper">reps</span>      | 30 pounds                     |
+| Lying dumbbell pullovers      | 3 <span class="helper">sets</span>                                | 20 <span class="helper">reps</span>      | 30 pounds                     |
+| Dumbbell rows                 | 3 <span class="helper">sets</span>                                | 20 <span class="helper">reps</span>      | 30 pounds                     |
+| Bicep Curls (20 pounds)       | 3 <span class="helper">sets</span>                                | 20 <span class="helper">reps</span>      | 20 pounds                     |
+| Bicep Curls (30 pounds)       | 2 <span class="helper">sets</span>                                | 10 <span class="helper">reps</span>      | 30 pounds                     |
+| Tricep extensions             | 2 <span class="helper">sets</span>                                | 15 <span class="helper">reps</span>      | 30 pounds                     |
+| Inclined sit-ups (first set)  | 3 <span class="helper">sets</span>                                | 20 <span class="helper">reps</span>      | -                             |
+| Inclined sit-ups (second set) | 2 <span class="helper">sets</span>                                | 30 <span class="helper">reps</span>      | -                             |
 | Medicine ball slam            | As many as possible in 30 seconds | -        | 20 pounds                     |
-| Jump rope                     | 3                                 | 1 minute | -                             |
+| Jump rope                     | 3 <span class="helper">sets</span>                                | 1 minute | -                             |
 
 This pre-training regimen will undergo significant changes once I begin my training runs, with a shifted focus towards core and upper body stability. However, the running itself will naturally strengthen my legs enough to handle the distance. Yoga remains the one unwavering element in my routine. Throughout all phases of training, I will continue practicing yoga, as it not only builds core strength but also aids in the recovery of recently stressed muscles and reduces inflammation throughout the body, particularly in the lower back and hips. In many respects, it addresses all the physical therapy exercises prescribed for my knee, wrist, elbow, and shoulder, encapsulating them into one comprehensive practice.
 
@@ -102,27 +103,25 @@ My race training regimen is derived from  [Inov-8's beginner 50-mile ultramarath
 All numbers are in miles.
 | Week | Mon | Tues | Weds | Thurs                                   | Fri | Sat | Sun       |
 | ---- | --- | ---- | ---- | --------------------------------------- | --- | --- | --------- |
-| 1    |     | 5    | 3    | Hill Reps - 5x2 mins hard               |     | 5   | 10        |
-| 2    |     | 4    | 3    | Hill Reps - 5x2.5 mins hard             |     | 5   | 12        |
-| 3    |     | 4    | 3    | Hill Reps - 5x3 mins hard               |     | 4   | 14        |
-| 4    |     | 5    | 3    | Hill Reps - 4x2 mins hard               |     | 5   | 12        |
-| 5    |     | 4    | 3    | Tempo Run: 15m @ 3h pace                |     | 3   | 16        |
-| 6    |     | 5    | 3    | Hill fartlek: 20m                       |     | 6   | 4-5h hike |
-| 7    |     | 4    | 3    | Temp run: 20m @ 3h                      |     | 4   | 18        |
-| 8    |     | 4    | 3    | Hill fartlek: 25m                       |     | 7   | 6-7h hike |
-| 9    |     | 4    | 3    | Hill Reps - 5x1 + 3 mile + 15m@3h tempo |     | 5   | 20        |
-| 10   |     | 5    | 3    | 4                                       |     | 6   | 10        |
-| 11   |     | 4    | 3    | Hill alts - 20m                         |     | 4   | 22        |
-| 12   |     | 5    | 3    | 2x Tempo run: 15m split by easy 5 mile  |     | 7   | 6-7h hike |
-| 13   |     | 4    | 3    | Hill alts - 25 min                      |     | 3   | 25        |
-| 14   |     | 5    | 3    | 2x Tempo run: 20m split by easy 5 mile  |     | 6   | 12        |
-| 15   |     | 4    | 3    | Relaxed Surges*                         |     | 4   | 7         |
-| 16   |     | 4    | 3    | 3                                       |     | 2   | Race      |
+| <span class="helper">Week</span> 1    |     | <span class="helper">Tues -</span> 5 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Hill Reps - 5x2 mins hard               |     |<span class="helper">Sat -</span> 5 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 10 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 2    |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Hill Reps - 5x2.5 mins hard             |     |<span class="helper">Sat -</span> 5 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 12 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 3    |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Hill Reps - 5x3 mins hard               |     |<span class="helper">Sat -</span> 4 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 14 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 4    |     | <span class="helper">Tues -</span> 5 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Hill Reps - 4x2 mins hard               |     |<span class="helper">Sat -</span> 5 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 12 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 5    |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Tempo Run: 15m @ 3h pace                |     |<span class="helper">Sat -</span> 3 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 16 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 6    |     | <span class="helper">Tues -</span> 5 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Hill fartlek: 20m                       |     |<span class="helper">Sat -</span> 6 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 4-5 <span class="helper">miles</span> hike |
+| <span class="helper">Week</span> 7    |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Temp run: 20m @ 3h                      |     |<span class="helper">Sat -</span> 4 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 18 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 8    |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Hill fartlek: 25m                       |     |<span class="helper">Sat -</span> 7 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 6-7 <span class="helper">miles</span> hike |
+| <span class="helper">Week</span> 9    |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Hill Reps - 5x1 + 3 mile + 15m@3h tempo |     |<span class="helper">Sat -</span> 5 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 20 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 10   |     | <span class="helper">Tues -</span> 5 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> 4 <span class="helper">miles</span>                                       |     |<span class="helper">Sat -</span> 6 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 10 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 11   |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Hill alts - 20m                         |     |<span class="helper">Sat -</span> 4 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 22 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 12   |     | <span class="helper">Tues -</span> 5 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> 2x Tempo run: 15m split by easy 5 miles  |     |<span class="helper">Sat -</span> 7 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 6-7 <span class="helper">miles</span> hike |
+| <span class="helper">Week</span> 13   |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Hill alts - 25 min                      |     |<span class="helper">Sat -</span> 3 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 25 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 14   |     | <span class="helper">Tues -</span> 5 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> 2x Tempo run: 20m split by easy 5 miles  |     |<span class="helper">Sat -</span> 6 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 12 <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 15   |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> Relaxed Surges*                         |     |<span class="helper">Sat -</span> 4 <span class="helper">miles</span>  | <span class="helper">Sun -</span> 7  <span class="helper">miles</span>       |
+| <span class="helper">Week</span> 16   |     | <span class="helper">Tues -</span> 4 <span class="helper">miles</span>   | <span class="helper">Weds -</span> 3 <span class="helper">miles</span>   | <span class="helper">Thurs -</span> 3 <span class="helper">miles</span>                                       |     |<span class="helper">Sat -</span> 2 <span class="helper">miles</span>  | <span class="helper">Sun -</span> Race      |
 
 
 
 Throughout this training journey, I'm looking forward to sharing updates on my progress, including the challenges I face, my recovery strategies, and the stunning vistas I'll encounter along the way. A highlight, for sure, will be attaching GoPros to my cattle dogs to capture their view of the run and their weary owner "leading" the pack.
 
-As part of this work and my promotion of it, I am fundraising for the American Foundation of Suicide Prevention. Recent personal losses have underscored the value of this training in keeping me connected to the joys of life, motivating me to extend the benefits of my efforts beyond my own health and self-esteem.
-
-I invite you to [follow my journey](https://www.youtube.com/channel/UCiMUK-5B9IqCeosbcMY3hZQ) on YouTube and consider supporting this cause. For those inclined to contribute, please think about making a monthly donation or perhaps just a single donation to my program [here](https://donate.tiltify.com/602da88d-db66-4a1c-adb0-adc307c27819).
+As part of this work and my promotion of it, I am fundraising for the American Foundation of Suicide Prevention. Recent personal losses have underscored the value of this training in keeping me connected to the joys of life, motivating me to extend the benefits of my efforts beyond my own health and self-esteem. Please consider supporting my effort through a donation of your choice to their program. You can make that donation through [my Tiltify campaign](https://tiltify.com/@steven-trevathan/50k-of-steven-believin).

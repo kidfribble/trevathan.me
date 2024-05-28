@@ -24,7 +24,6 @@ h1 {
 
 .notes article h1{
   padding-left: 0;
-  border-top: 1px solid var(--primaryColor);
   width: 100%;
 }
 
@@ -48,6 +47,13 @@ body.notes ul {
 
 body.notes .itstheart {
   mix-blend-mode: multiply;
+}
+
+body.notes .art-caption {
+  background-color: var(--accentColor);
+  color: var(--lightGrey);
+  font-size: 1rem;
+  padding: .25rem;
 }
 
 article.wrap.notes {
@@ -165,6 +171,33 @@ body.notes table td {
 body.notes table tr td:nth-child(1),
 body.notes table th:nth-child(1) {
   background-color: var(--accentColor);
+}
+
+body.notes table tr span.helper {
+  display: none;
+}
+
+@media screen and (max-width:990px) {
+  body.notes table {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+
+  body.notes table tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  body.notes table th {
+    display: none;
+  }
+
+  body.notes table tr span.helper {
+    display: inline;
+  }
 }
 
 @media screen and (max-width:950px) {
