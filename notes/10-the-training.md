@@ -7,7 +7,7 @@
  draft: false
  images: true
  art: notes/desertrun
- artcaption: Photo credit to my friends at Linked Ring, who took the opportunity to snag a CamelPak promo shot after I got my rental car stuck in the Bonneville Salt Flats.
+ artcaption: Photo credit to my friends at Linked Ring, who took the opportunity to snag a CamelBak promo shot after I got my rental car stuck in the Bonneville Salt Flats.
 ---
 
 I'm about six weeks away from starting my second marathon training, this time for an ultramarathon covering 50k. Anyone undertaking a challenging endeavor for the first time is bound to learn a great deal about that activity, what made it difficult for them, and how they might approach it differently in the future. So there are many things I plan to do differently this time, and in this post I'm going to break some of that down for you. One of those things that I'll state off the bat is that I'm aiming to [raise a minimum of $2,000](https://tiltify.com/@steven-trevathan/50k-of-steven-believin) for the American Foundation for Suicide Prevention, and I hope by the time you complete this reading that you'll become a donor yourself. Let's get started.
