@@ -1,13 +1,13 @@
 .primary-nav {
+  background-color: #14141433;
   box-sizing: border-box;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(10px);
   display: flex;
-  padding: 0.875rem;
+  padding: 0.875rem 1.25rem 0.875rem 1.25rem;
+  position: fixed;
   justify-content: space-between;
-  left: 1.25rem;
-  right: 1.25rem;
-  top: 1.25rem;
-  vertical-align: center;
+  width: 100%;
+  z-index: 10;
 }
 
 .primary-nav a {
@@ -21,12 +21,12 @@
   padding: 1.25rem;
   position: relative;
   vertical-align: middle;
+
 }
 
 .primary-nav a.its-my-name.steven {
   border-radius: 4px;
-  color: var(--accentColor);
-  background-color: var(--primaryColor);
+  color: var(--primaryColor);
   padding: 3px;
 }
 
@@ -37,12 +37,12 @@
 
 .primary-nav a:focus span.smile, .primary-nav a.active span.smile {
   opacity: 100;
-  color: var(--darkGrey);
+  color: var(--accentColor);
 }
 
 .primary-nav a:visited {
   background: #eee;
-  color: var(--darkGrey);
+  color: var(--primaryColor);
 }
 
 @media screen and (max-width:550px) {
@@ -57,6 +57,7 @@
 @media screen and (max-width:490px) {
   .primary-nav {
     flex-wrap: wrap;
+    position: relative;
   }
   .primary-nav a {
     padding: 0;

@@ -4,7 +4,7 @@ time {
 }
 
 time {
-  color: var(--primaryColor);
+  color: var(--backgroundColor);
   font-family: 'GT Eesti Text Book';
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -24,7 +24,7 @@ time {
   padding-top: .25rem;
   margin: auto 0;
 
-  color: var(--primaryColor);
+  color: var(--accentColor);
   font-family: 'GT Eesti Text Book';
   font-size: 1.1rem;
   line-height: 2rem;

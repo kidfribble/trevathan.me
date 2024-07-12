@@ -1,25 +1,54 @@
-.masthead-block {
-  align-items: center;
-  border-radius: 4px;
-  background-color: var(--darkGrey);
+.testimonial-block {
+  align-items: stretch;
+  background-color: #14141433;
+  backdrop-filter: blur(10px);
   display: flex;
-  color: var(--accentColor);
-  min-height: 78vh;
+  color: var(--primaryColor);
+  gap: 2vw;
   margin-bottom: 7vh;
-  width: 100%;
+  margin-top: 0;
+  padding-top: 7vh !important;
+  max-width: 1480px;
 }
 
-.masthead-block div.col {
-  gap: 0;
-  width: 50%;
-}
-
-.masthead-block h1 {
-  margin-bottom: 0;
+.testimonial-block blockquote {
+  border: 1px solid var(--primaryColor);
+  border-radius: 7px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  max-width: 680px;
+  margin: 0;
+  width: 50%;
+  padding: 2.5rem;
+  position: relative;
 }
 
-.masthead-block div.masthead-art {
+.testimonial-block blockquote::after {
+  box-shadow: -12px -12px 0 antiquewhite;
+  opacity: 0;
+  position: absolute;
+  content: "";
+  border-radius: 7px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transition: all 120ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.testimonial-block blockquote:hover {
+  margin: -2px 2px 2px -2px;
+}
+
+.testimonial-block blockquote:hover::after {
+  opacity: 100;
+}
+
+.testimonial-block div.masthead-art {
   align-items: start;
   box-sizing: border-box;
   margin-bottom: 2.6rem;
@@ -30,21 +59,17 @@
   width: 100%;
 }
 
-.masthead-block div.masthead-art img {
+.testimonial-block div.masthead-art img {
   max-width: 800px;
   width: 100%;
 }
 
-.masthead-block blockquote {
-  max-width: 600px;
-}
-
-.masthead-block.noArt h1{
+.testimonial-block.noArt h1{
   text-align: center;
   width: 100%;
 }
 
-.masthead-block.noArt h3{
+.testimonial-block.noArt h3{
   text-align: center;
   width: 100%;
   max-width: 400px;
@@ -52,16 +77,29 @@
 }
 
 @media screen and (max-width:700px) {
-  .masthead-block {
-    flex-direction: column;
-    padding-bottom: 2.6rem;
+  h1 {
+    height: auto !important;
+    font-size: 2.5rem !important;
+    line-height: 2.5rem !important;
+    padding: 22vh 1.25rem 1.25rem !important;
   }
 
-  .masthead-block div.col {
+  h3 {
+    text-align: left !important;
+    padding-left: 1.25rem !important;
+  }
+
+  .testimonial-block {
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 1.25rem;
+  }
+
+  .testimonial-block blockquote {
     width: 100%;
   }
 
-  .masthead-block.noArt h1 {
+  .testimonial-block.noArt h1 {
     padding-right: 2.6rem;
   }
 }

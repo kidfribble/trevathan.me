@@ -1,0 +1,11 @@
+body.career article h3 {
+  font-family: "CorundumText SemiBold";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 375;
+  line-height: 2.25rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  padding: 0;
+  text-align: left;
+}
