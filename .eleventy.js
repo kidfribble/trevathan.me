@@ -36,6 +36,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addGlobalData("navigation",
     [
       ["Me", "/"],
+      ["Product Design", "/portfolio"],
       ["Notes", "/notes"]
     ]);
 
