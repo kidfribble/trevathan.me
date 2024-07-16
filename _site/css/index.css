@@ -1,5 +1,6 @@
 @import url(_layout.css);
 @import url(_nav.css);
+@import url(_subnav.css);
 @import url(_masthead.css);
 @import url(_theart.css);
 @import url(_colors.css);
@@ -7,6 +8,7 @@
 @import url(_tags.css);
 @import url(_isolates.css);
 @import url(_events.css);
+@import url(_career.css);
 
 body {
   background: var(--backgroundColor);
@@ -15,7 +17,11 @@ body {
 /* Index Intro */
 h1 {
   padding: 2.6rem;
+  padding-top: 22vh;
   margin-bottom: 2.6rem;
+  height: 90vh;
+  align-items: center;
+  display: flex;
 }
 
 

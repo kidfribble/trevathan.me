@@ -1,29 +1,23 @@
 body {
   box-sizing: border-box;
   display: flex;
-  padding: 1.25rem;
   flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
   align-self: stretch;
   margin: 0;
 }
 
-@media screen and (max-width:430px) {
-  body {
-    padding-top: 8rem;
-  }
-}
-
 article.wrap {
   display: flex;
-  padding: 1.25rem 1.25rem 1.25rem 0rem;
+  padding: 1.25rem;
   align-items: flex-start;
   gap: 3.75rem;
   align-self: stretch;
   flex-flow: row wrap;
+  box-sizing: border-box;
 
-  max-width: 650px;
+  max-width: 1480px;
+  width: 100%;
   margin: auto;
 }
 
@@ -31,10 +25,34 @@ div.col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2.25rem;
+  gap: 1.25rem;
   flex: 1 0 0;
+}
+
+div.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+article.wrap section div.col {
+  max-width: 650px;
 }
 
 section {
   padding: 0;
+}
+
+
+@media screen and (max-width:900px) {
+  article.wrap.subnav-enabled section {
+    flex-direction: column;
+  }
+  article.wrap section div.col {
+    max-width: none;
+    width: 100%;
+  }
+  article.wrap section div.col.client-logos {
+    padding: 1.25rem;
+  }
 }

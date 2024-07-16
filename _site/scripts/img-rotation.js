@@ -22,6 +22,8 @@ const debounce = (fn) => {
 
 const storeScroll = () => {
   document.documentElement.dataset.scroll = window.scrollY;
+//   document.getElementByClassName('smile').style.rotate(window.scrollY/100);
+//  document.get
 
   if (window.scrollY > zone[0] && window.scrollY < zone[1]) {
     document.documentElement.dataset.zone = 1;

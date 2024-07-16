@@ -20,6 +20,19 @@ body.notes section {
 
 h1 {
   margin-bottom: 0 !important;
+  font-family: "CorundumText Book";
+}
+
+body.notes article h3 {
+  font-family: "CorundumText SemiBold";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 375;
+  line-height: 2.25rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  padding: 0;
+  text-align: left;
 }
 
 .notes article h1{
@@ -46,14 +59,17 @@ body.notes ul {
 }
 
 body.notes .itstheart {
-  mix-blend-mode: multiply;
+  width: 90vw;
+  height: 90vh;
+  margin-top: 5vh;
 }
 
 body.notes .art-caption {
-  background-color: var(--accentColor);
-  color: var(--lightGrey);
+  background-color: var(--tagBG);
+  color: var(--accentColor);
   font-size: 1rem;
-  padding: .25rem;
+  padding: 1.25rem;
+  max-width: 90vw;
 }
 
 article.wrap.notes {
@@ -62,6 +78,7 @@ article.wrap.notes {
   display: block;
   width: 100%;
   padding: 0rem;
+  z-index: 2;
 }
 
 article.wrap.notes div.col {
@@ -79,7 +96,7 @@ ul.post-collection li {
   display: flex;
   flex-direction: column;
   line-height: 2rem;
-  padding-bottom: 2rem;
+  padding: 1.25rem 1.25rem 2rem;
   border-bottom: 1px dotted rgba(0,0,0,.25);
   margin-bottom: 2.75rem;
 }
@@ -89,7 +106,8 @@ ul.post-collection li:last-child {
 }
 
 ul.post-collection li a {
-  font-size: 1.75rem;
+  font-size: 3.75rem;
+  line-height: 4rem;
 }
 
 span.post-count {
@@ -202,7 +220,8 @@ body.notes table tr span.helper {
 
 @media screen and (max-width:950px) {
 
-  article.wrap {
+  article.wrap.notes {
     flex-direction: column;
+    margin-top: auto;
   }
 }

@@ -1,18 +1,24 @@
 .primary-nav {
   box-sizing: border-box;
-  backdrop-filter: blur(2px);
   display: flex;
-  padding: 0.875rem;
+  padding: 0.875rem 1.25rem 0.875rem 1.25rem;
+  position: fixed;
   justify-content: space-between;
-  left: 1.25rem;
-  right: 1.25rem;
-  top: 1.25rem;
-  vertical-align: center;
+  width: 100%;
+  z-index: 9;
+}
+
+.primary-nav span.pages {
+  border-radius: 4px;
+  display: flex;
+  gap: 1rem;
+  padding: 3px;
+  background: var(--backgroundColor);
 }
 
 .primary-nav a {
   align-self: center;
-  color: var(--darkGrey);
+  color: var(--primaryColory);
   display: flex;
   line-height: 1.5rem;
   font-weight: 600;
@@ -21,28 +27,30 @@
   padding: 1.25rem;
   position: relative;
   vertical-align: middle;
+
 }
 
 .primary-nav a.its-my-name.steven {
   border-radius: 4px;
-  color: var(--accentColor);
-  background-color: var(--primaryColor);
+  color: var(--primaryColor);
   padding: 3px;
+  background: var(--backgroundColor);
 }
 
 .primary-nav a span.smile {
   opacity: 0;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  rotate: 0;
 }
 
 .primary-nav a:focus span.smile, .primary-nav a.active span.smile {
   opacity: 100;
-  color: var(--darkGrey);
+  color: var(--accentColor);
 }
 
 .primary-nav a:visited {
   background: #eee;
-  color: var(--darkGrey);
+  color: var(--primaryColor);
 }
 
 @media screen and (max-width:550px) {
@@ -57,6 +65,7 @@
 @media screen and (max-width:490px) {
   .primary-nav {
     flex-wrap: wrap;
+    position: relative;
   }
   .primary-nav a {
     padding: 0;

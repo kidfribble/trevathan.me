@@ -1,0 +1,75 @@
+article.wrap.subnav-enabled {
+  position: relative;
+  flex-wrap: unset !important;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  padding: 0;
+}
+
+nav.sub-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  scrollbar-width: none;
+
+  display: flex;
+  padding: 1.75rem;
+  align-items: center;
+  gap: 0.3125rem;
+  width: 100%;
+  background-color: var(--backgroundColor);
+}
+
+nav.sub-nav a {
+  display: flex;
+  padding: 0.75rem 1.25rem;
+  align-items: center;
+  gap: 0.625rem;
+
+  border-radius: 0.75rem;
+  background: var(--tagBG);
+  text-decoration: none;
+
+  color: #555;
+  font-family: "GT Eesti Display Bold";
+  font-size: 0.96094rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+nav.sub-nav a.active {
+  color: var(--primaryColor);
+}
+
+.subnav-enabled section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  padding: 7.5rem 2.5rem 2.5rem;
+  width: 100%;
+}
+
+.subnav-enabled section.inactive {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+nav.sub-nav span.mobile-scroll {
+  display: flex;
+  gap: 0.3125rem;
+  max-width: 1480px;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width:900px) {
+  nav.sub-nav {
+    padding: 1.25rem;
+  }
+}
