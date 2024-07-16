@@ -17,7 +17,7 @@
 
 .primary-nav a {
   align-self: center;
-  color: var(--darkGrey);
+  color: var(--primaryColory);
   display: flex;
   line-height: 1.5rem;
   font-weight: 600;
