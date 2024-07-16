@@ -167,7 +167,6 @@ body.notes table th {
   font-size: 0.875rem;
   text-transform: uppercase;
   text-align: left;
-  background-color: var(--backgroundColor);
   border-bottom: 2px solid var(--primaryColor);
   box-sizing: border-box;
   padding: 0.625rem;
@@ -184,11 +183,6 @@ body.notes table td {
   line-height: 1rem;
   padding: 1rem 0 1rem;
   text-indent: 0.625rem;
-}
-
-body.notes table tr td:nth-child(1),
-body.notes table th:nth-child(1) {
-  background-color: var(--accentColor);
 }
 
 body.notes table tr span.helper {
