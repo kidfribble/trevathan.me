@@ -1,9 +1,10 @@
 ---
 images: true
-active: Philosophy
+active: Me
 header: Designer, entrepreneur, community evangelist, technologist, musician, athlete, ally.
 testimonial: [jared, steph]
 mastheadArt: index-portrait.png
+subNavigation: [[roles, "Roles"], [education, "Education"], [speaking, "Speaking & Publications"], [community, "Community Work"], [philosophies, "Philosophies"]]
 ---
 
 <!DOCTYPE html>
@@ -15,19 +16,19 @@ mastheadArt: index-portrait.png
 
     {% include "masthead.njk" %}
 
-    <article class="wrap">
+    {% include "_subnav.njk"%}
 
-      <div class="col">
-        {% include "philosophies.njk" %}
-        {# {% include "body-art.njk" %}
-        {% include "personal.njk" %} #}
-      </div>
-
+    <article class="wrap subnav-enabled">
+      {% include "career.njk" %}
+      {% include "education.njk" %}
+      {% include "writing-speaking.njk" %}
+      {% include "events.njk" %}
+      {% include "philosophies.njk" %}
     </article>
 
   <div id="makemodelPositioner"></div>
 
   <script src="scripts/window-observer.js"></script>
-  <script src="scripts/img-rotation.js"></script>
+  <script src="/scripts/subnav.js"></script>
   </body>
 </html>

@@ -48,13 +48,13 @@ h1 {
   /* font-size: 18.75rem; */
   /* font-size: 14vw; */
   /* font-size: 10cqb; */
-  font-size: 6.25rem;
+  font-size: 5.25rem;
   font-style: normal;
   font-weight: 700;
   /* line-height: 16.875rem; */
   /* line-height: 15vw; */
   /* line-height: 10cqb; */
-  line-height: 6.25rem;
+  line-height: 5.25rem;
   margin-top: 0;
   max-width: 1320px;
   text-align: left;
@@ -75,8 +75,6 @@ h2 {
 }
 
 h3 {
-  background-color: #14141433;
-  backdrop-filter: blur(10px);
   box-sizing: border-box;
   font-family: "CorundumText SemiBold";
   font-size: 1.75rem;
@@ -84,11 +82,14 @@ h3 {
   font-weight: 375;
   line-height: 2.25rem;
   margin-bottom: 0;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 7vh;
-  text-align: center;
+  margin-top: 0;
+  text-align: left;
   width: 100%;
+}
+
+h3.intro {
+  text-align: center;
+  padding-top: 7vh;
 }
 
 .intro p {

@@ -1,5 +1,6 @@
 @import url(_layout.css);
 @import url(_nav.css);
+@import url(_subnav.css);
 @import url(_masthead.css);
 @import url(_theart.css);
 @import url(_colors.css);
@@ -18,7 +19,7 @@ h1 {
   padding: 2.6rem;
   padding-top: 22vh;
   margin-bottom: 2.6rem;
-  height: 70vh;
+  height: 90vh;
   align-items: center;
   display: flex;
 }

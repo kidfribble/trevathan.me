@@ -1,0 +1,10 @@
+<nav aria-label="sub navigation" role="navigation" class="sub-nav">
+  <span class="mobile-scroll">
+  {% for item in subNavigation %}
+    <a href="#{{item[0]}}" {% if item[1] == "Roles" %}class="active"{% endif %}>
+    {% if item == active %}<span class="smile">&#x263B;</span>{% endif %}
+      {{item[1]}}
+    </a>
+  {% endfor %}
+  </span>
+</nav>

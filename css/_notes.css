@@ -58,14 +58,17 @@ body.notes ul {
 }
 
 body.notes .itstheart {
-  mix-blend-mode: multiply;
+  width: 90vw;
+  height: 90vh;
+  margin-top: 5vh;
 }
 
 body.notes .art-caption {
-  background-color: var(--accentColor);
-  color: var(--lightGrey);
+  background-color: var(--tagBG);
+  color: var(--accentColor);
   font-size: 1rem;
-  padding: .25rem;
+  padding: 1.25rem;
+  max-width: 90vw;
 }
 
 article.wrap.notes {

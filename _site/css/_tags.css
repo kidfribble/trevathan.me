@@ -4,14 +4,14 @@ time {
 }
 
 time {
-  color: var(--backgroundColor);
+  color: var(--accentColor);
   font-family: 'GT Eesti Text Book';
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 2rem;
   padding: 0.2rem 1rem 0 1rem;
-  background: var(--accentColor);
+  background: var(--tagBG);
   display: inline-block;
   border-radius: 4px;
   text-align: center;

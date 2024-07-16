@@ -9,6 +9,7 @@
   margin-top: 0;
   padding-top: 7vh !important;
   max-width: 1480px;
+  width: 100%;
 }
 
 .testimonial-block blockquote {
@@ -84,7 +85,7 @@
     padding: 22vh 1.25rem 1.25rem !important;
   }
 
-  h3 {
+  h3.intro {
     text-align: left !important;
     padding-left: 1.25rem !important;
   }

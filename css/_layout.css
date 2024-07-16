@@ -7,11 +7,6 @@ body {
   margin: 0;
 }
 
-@media screen and (max-width:430px) {
-  body {
-  }
-}
-
 article.wrap {
   display: flex;
   padding: 1.25rem;
@@ -19,8 +14,10 @@ article.wrap {
   gap: 3.75rem;
   align-self: stretch;
   flex-flow: row wrap;
+  box-sizing: border-box;
 
-  max-width: 650px;
+  max-width: 1480px;
+  width: 100%;
   margin: auto;
 }
 
@@ -32,6 +29,29 @@ div.col {
   flex: 1 0 0;
 }
 
+div.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+article.wrap section div.col {
+  max-width: 650px;
+}
+
 section {
   padding: 0;
+}
+
+
+@media screen and (max-width:900px) {
+  article.wrap.subnav-enabled section {
+    flex-direction: column;
+  }
+  article.wrap section div.col {
+    max-width: none;
+  }
+  article.wrap section div.col.client-logos {
+    padding: 1.25rem;
+  }
 }
