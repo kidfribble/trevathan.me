@@ -5,7 +5,7 @@
   <span class="pages">
   {% for item in navigation %}
     <a href="{{item[1]}}" {% if item[0] == active %}class="active"{% endif %}>
-    {% if item[0] == active %}<span class="smile">&#x263B;</span>{% endif %}
+    {% if item[0] == active %}<span class="smile" id="smile">&#x263B;</span>{% endif %}
       {{item[0]}}
     </a>
   {% endfor %}
