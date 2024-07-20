@@ -20,10 +20,16 @@ const debounce = (fn) => {
   } 
 };
 
+function rotateSmile(position)  {
+  var smile = document.getElementById('smile');
+
+  smile.style.rotate = position/10 + 'deg';
+}
+
 const storeScroll = () => {
   document.documentElement.dataset.scroll = window.scrollY;
-//   document.getElementByClassName('smile').style.rotate(window.scrollY/100);
-//  document.get
+
+  rotateSmile(window.scrollY);
 
   if (window.scrollY > zone[0] && window.scrollY < zone[1]) {
     document.documentElement.dataset.zone = 1;
