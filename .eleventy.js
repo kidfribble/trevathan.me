@@ -1,7 +1,10 @@
 const fg = require('fast-glob');
+const EleventyVitePlugin = require("@11ty/eleventy-plugin-vite");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
+
+  eleventyConfig.addPlugin(EleventyVitePlugin);
 
   const portfolioImages = fg.sync(['**images/portfolio/image-dump/**']);
 

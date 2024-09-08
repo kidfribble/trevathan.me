@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:pages": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,17 @@
   },
   "homepage": "https://github.com/kidfribble/trevathan.me#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "3.0.0-alpha.11",
+    "@types/maplibre-gl": "^1.14.0",
+    "@types/node": "^22.5.4",
+    "glob": "^11.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@11ty/eleventy-plugin-vite": "^4.0.0",
     "@vercel/analytics": "^1.1.2",
+    "maplibre-gl": "^4.6.0",
     "react-draggable": "^4.4.6"
   }
 }

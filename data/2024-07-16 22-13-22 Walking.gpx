@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="HealthExport https://healthexport.app/">
+	<trk>
+		<trkseg>
+			<trkpt lat="37.82392558192491" lon="-122.18769302059563">
+				<ele>421.6231080843934</ele>
+				<time>2024-07-17T05:23:46Z</time>
+			</trkpt>
+			<trkpt lat="37.82392558192491" lon="-122.18769302059563">
+				<ele>421.6231080843934</ele>
+				<time>2024-07-17T05:23:47Z</time>
+			</trkpt>
+			<trkpt lat="37.82392558192491" lon="-122.18769302059563">
+				<ele>421.6231080843934</ele>
+				<time>2024-07-17T05:23:48Z</time>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

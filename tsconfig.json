@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // or higher, like ES2017
+    "module": "ES6", // Use ES Modules instead of CommonJS
+    "esModuleInterop": true, // Keep this to ensure compatibility with CommonJS imports
+    "strict": true,
+    "moduleResolution": "node",
+    "outDir": "./dist", // Ensure compiled JS files go to the right place
+    "forceConsistentCasingInFileNames": true
+  }
+}
